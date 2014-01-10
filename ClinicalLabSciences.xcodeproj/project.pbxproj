@@ -1,0 +1,1706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0DF58E183687C400710706 /* FavoritesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF58D183687C400710706 /* FavoritesManager.m */; };
+		6E0DF5921836A17B00710706 /* AcknowledgmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF5911836A17B00710706 /* AcknowledgmentsViewController.m */; };
+		6E0DF5961836C4BE00710706 /* NavigationMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF5951836C4BE00710706 /* NavigationMenuViewController.m */; };
+		6E103F08183415AD00574296 /* SwipeBackInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E103F07183415AD00574296 /* SwipeBackInteractionController.m */; };
+		6E16EB7C18352D0600FA135A /* UserDefaultsConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16EB7B18352D0600FA135A /* UserDefaultsConsts.m */; };
+		6E16EB971835588600FA135A /* balancedDentureOcclusion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB7E183556F100FA135A /* balancedDentureOcclusion.mp4 */; };
+		6E16EB981835588600FA135A /* monoplaneDentureOcclusion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB7F183556F100FA135A /* monoplaneDentureOcclusion.mp4 */; };
+		6E16EB991835588600FA135A /* CDInsertion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB80183556F100FA135A /* CDInsertion.mp4 */; };
+		6E16EB9A1835588600FA135A /* dentureTryIn.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB81183556F100FA135A /* dentureTryIn.mp4 */; };
+		6E16EB9B1835588600FA135A /* facebow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB82183556F100FA135A /* facebow.mp4 */; };
+		6E16EB9C1835588600FA135A /* facebowHanau.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB83183556F100FA135A /* facebowHanau.mp4 */; };
+		6E16EB9D1835588600FA135A /* facebowWhipMix.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB84183556F100FA135A /* facebowWhipMix.mp4 */; };
+		6E16EB9E1835588600FA135A /* implantOverdenture.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB85183556F100FA135A /* implantOverdenture.mp4 */; };
+		6E16EB9F1835588600FA135A /* mandibularImpressions.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB86183556F100FA135A /* mandibularImpressions.mp4 */; };
+		6E16EBA01835588600FA135A /* max-manRecords.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB87183556F100FA135A /* max-manRecords.mp4 */; };
+		6E16EBA11835588600FA135A /* maxillaryImpressions.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB88183556F100FA135A /* maxillaryImpressions.mp4 */; };
+		6E16EBA21835588600FA135A /* panoImage01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB89183556F100FA135A /* panoImage01.mp4 */; };
+		6E16EBA31835588600FA135A /* panoImage02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB8A183556F100FA135A /* panoImage02.mp4 */; };
+		6E16EBA41835588600FA135A /* panoImage03.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB8B183556F100FA135A /* panoImage03.mp4 */; };
+		6E16EBA51835588600FA135A /* panoImage04.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB8C183556F100FA135A /* panoImage04.mp4 */; };
+		6E16EBA61835588600FA135A /* panoImage05.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB8D183556F100FA135A /* panoImage05.mp4 */; };
+		6E16EBA71835588600FA135A /* panoImage06.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB8E183556F200FA135A /* panoImage06.mp4 */; };
+		6E16EBA81835588600FA135A /* panoImage07.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB8F183556F200FA135A /* panoImage07.mp4 */; };
+		6E16EBA91835588600FA135A /* panoImage08.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB90183556F200FA135A /* panoImage08.mp4 */; };
+		6E16EBAA1835588600FA135A /* panoImage09.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB91183556F200FA135A /* panoImage09.mp4 */; };
+		6E16EBAB1835588600FA135A /* panoImage10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB92183556F200FA135A /* panoImage10.mp4 */; };
+		6E16EBAC1835588600FA135A /* proceraCrownFabCement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB93183556F200FA135A /* proceraCrownFabCement.mp4 */; };
+		6E16EBAD1835588600FA135A /* proceraCrownPrep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB94183556F200FA135A /* proceraCrownPrep.mp4 */; };
+		6E16EBAE1835588600FA135A /* proceraCrownPrepOrig.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB95183556F200FA135A /* proceraCrownPrepOrig.mp4 */; };
+		6E16EBAF1835588600FA135A /* proceraCrownScanning.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E16EB96183556F200FA135A /* proceraCrownScanning.mp4 */; };
+		6E1862B61832763100831D9F /* ProcedureTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1862B51832763100831D9F /* ProcedureTransitionManager.m */; };
+		6E3AFD14187DE0F80078A156 /* ProceduresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AFD13187DE0F80078A156 /* ProceduresTableViewController.m */; };
+		6E3AFD17187E039F0078A156 /* NavMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AFD16187E039F0078A156 /* NavMenuViewController.m */; };
+		6E44FB4C18563280008EEFA5 /* Acknowledgements.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E44FB4B18563280008EEFA5 /* Acknowledgements.html */; };
+		6E55CE73182D7C3E00B03326 /* Balanced01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDB5182D7C3D00B03326 /* Balanced01.jpg */; };
+		6E55CE74182D7C3E00B03326 /* Balanced02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDB6182D7C3D00B03326 /* Balanced02.jpg */; };
+		6E55CE75182D7C3E00B03326 /* Balanced03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDB7182D7C3D00B03326 /* Balanced03.jpg */; };
+		6E55CE76182D7C3E00B03326 /* Balanced04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDB8182D7C3D00B03326 /* Balanced04.jpg */; };
+		6E55CE77182D7C3E00B03326 /* Balanced05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDB9182D7C3D00B03326 /* Balanced05.jpg */; };
+		6E55CE78182D7C3E00B03326 /* Balanced06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDBA182D7C3E00B03326 /* Balanced06.jpg */; };
+		6E55CE79182D7C3E00B03326 /* Balanced07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDBB182D7C3E00B03326 /* Balanced07.jpg */; };
+		6E55CE7A182D7C3E00B03326 /* Balanced08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDBC182D7C3E00B03326 /* Balanced08.jpg */; };
+		6E55CE7B182D7C3E00B03326 /* Balanced09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDBD182D7C3E00B03326 /* Balanced09.jpg */; };
+		6E55CE81182D7C3E00B03326 /* CDInsertion01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDC3182D7C3E00B03326 /* CDInsertion01.jpg */; };
+		6E55CE82182D7C3E00B03326 /* CDInsertion02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDC4182D7C3E00B03326 /* CDInsertion02.jpg */; };
+		6E55CE83182D7C3E00B03326 /* CDInsertion03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDC5182D7C3E00B03326 /* CDInsertion03.jpg */; };
+		6E55CE84182D7C3E00B03326 /* CDInsertion04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDC6182D7C3E00B03326 /* CDInsertion04.jpg */; };
+		6E55CE85182D7C3E00B03326 /* CDInsertion05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDC7182D7C3E00B03326 /* CDInsertion05.jpg */; };
+		6E55CE9A182D7C3E00B03326 /* Facebow01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDDC182D7C3E00B03326 /* Facebow01.jpg */; };
+		6E55CE9B182D7C3E00B03326 /* Facebow02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDDD182D7C3E00B03326 /* Facebow02.jpg */; };
+		6E55CE9C182D7C3E00B03326 /* Facebow03-Hanau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDDE182D7C3E00B03326 /* Facebow03-Hanau.jpg */; };
+		6E55CE9D182D7C3E00B03326 /* Facebow03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDDF182D7C3E00B03326 /* Facebow03.jpg */; };
+		6E55CE9E182D7C3E00B03326 /* Facebow03a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDE0182D7C3E00B03326 /* Facebow03a.jpg */; };
+		6E55CEA4182D7C3E00B03326 /* ImplantOverdenture01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDE6182D7C3E00B03326 /* ImplantOverdenture01.jpg */; };
+		6E55CEA5182D7C3E00B03326 /* ImplantOverdenture02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDE7182D7C3E00B03326 /* ImplantOverdenture02.jpg */; };
+		6E55CEA6182D7C3E00B03326 /* ImplantOverdenture03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDE8182D7C3E00B03326 /* ImplantOverdenture03.jpg */; };
+		6E55CEA7182D7C3E00B03326 /* ImplantOverdenture04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDE9182D7C3E00B03326 /* ImplantOverdenture04.jpg */; };
+		6E55CEA8182D7C3E00B03326 /* ImplantOverdenture05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDEA182D7C3E00B03326 /* ImplantOverdenture05.jpg */; };
+		6E55CEA9182D7C3E00B03326 /* ImplantOverdenture06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDEB182D7C3E00B03326 /* ImplantOverdenture06.jpg */; };
+		6E55CEAF182D7C3E00B03326 /* MandibularImpressions01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF1182D7C3E00B03326 /* MandibularImpressions01.jpg */; };
+		6E55CEB0182D7C3E00B03326 /* MandibularImpressions02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF2182D7C3E00B03326 /* MandibularImpressions02.jpg */; };
+		6E55CEB1182D7C3E00B03326 /* MandibularImpressions03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF3182D7C3E00B03326 /* MandibularImpressions03.jpg */; };
+		6E55CEB2182D7C3E00B03326 /* MandibularImpressions04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF4182D7C3E00B03326 /* MandibularImpressions04.jpg */; };
+		6E55CEB3182D7C3E00B03326 /* MandibularImpressions05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF5182D7C3E00B03326 /* MandibularImpressions05.jpg */; };
+		6E55CEB4182D7C3E00B03326 /* MandibularImpressions06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF6182D7C3E00B03326 /* MandibularImpressions06.jpg */; };
+		6E55CEB5182D7C3E00B03326 /* MandibularImpressions07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF7182D7C3E00B03326 /* MandibularImpressions07.jpg */; };
+		6E55CEB6182D7C3E00B03326 /* MandibularImpressions08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF8182D7C3E00B03326 /* MandibularImpressions08.jpg */; };
+		6E55CEB7182D7C3E00B03326 /* MandibularImpressions09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDF9182D7C3E00B03326 /* MandibularImpressions09.jpg */; };
+		6E55CEBD182D7C3E00B03326 /* Max-manRecords01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CDFF182D7C3E00B03326 /* Max-manRecords01.jpg */; };
+		6E55CEBE182D7C3E00B03326 /* Max-manRecords02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE00182D7C3E00B03326 /* Max-manRecords02.jpg */; };
+		6E55CEBF182D7C3E00B03326 /* Max-manRecords03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE01182D7C3E00B03326 /* Max-manRecords03.jpg */; };
+		6E55CEC0182D7C3E00B03326 /* Max-manRecords04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE02182D7C3E00B03326 /* Max-manRecords04.jpg */; };
+		6E55CEC1182D7C3E00B03326 /* Max-manRecords05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE03182D7C3E00B03326 /* Max-manRecords05.jpg */; };
+		6E55CEC2182D7C3E00B03326 /* Max-manRecords06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE04182D7C3E00B03326 /* Max-manRecords06.jpg */; };
+		6E55CEC3182D7C3E00B03326 /* Max-manRecords07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE05182D7C3E00B03326 /* Max-manRecords07.jpg */; };
+		6E55CEC4182D7C3E00B03326 /* Max-manRecords08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE06182D7C3E00B03326 /* Max-manRecords08.jpg */; };
+		6E55CECA182D7C3E00B03326 /* MaxillaryImpressions01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE0C182D7C3E00B03326 /* MaxillaryImpressions01.jpg */; };
+		6E55CECB182D7C3E00B03326 /* MaxillaryImpressions02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE0D182D7C3E00B03326 /* MaxillaryImpressions02.jpg */; };
+		6E55CECC182D7C3E00B03326 /* MaxillaryImpressions03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE0E182D7C3E00B03326 /* MaxillaryImpressions03.jpg */; };
+		6E55CECD182D7C3E00B03326 /* MaxillaryImpressions04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE0F182D7C3E00B03326 /* MaxillaryImpressions04.jpg */; };
+		6E55CECE182D7C3E00B03326 /* MaxillaryImpressions05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE10182D7C3E00B03326 /* MaxillaryImpressions05.jpg */; };
+		6E55CECF182D7C3E00B03326 /* MaxillaryImpressions06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE11182D7C3E00B03326 /* MaxillaryImpressions06.jpg */; };
+		6E55CED0182D7C3E00B03326 /* MaxillaryImpressions07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE12182D7C3E00B03326 /* MaxillaryImpressions07.jpg */; };
+		6E55CED6182D7C3E00B03326 /* MonoplaneDentureOcclusion01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE18182D7C3E00B03326 /* MonoplaneDentureOcclusion01.jpg */; };
+		6E55CED7182D7C3E00B03326 /* MonoplaneDentureOcclusion02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE19182D7C3E00B03326 /* MonoplaneDentureOcclusion02.jpg */; };
+		6E55CED8182D7C3E00B03326 /* MonoplaneDentureOcclusion03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE1A182D7C3E00B03326 /* MonoplaneDentureOcclusion03.jpg */; };
+		6E55CED9182D7C3E00B03326 /* MonoplaneDentureOcclusion04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE1B182D7C3E00B03326 /* MonoplaneDentureOcclusion04.jpg */; };
+		6E55CEE5182D7C3E00B03326 /* panoImage02_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE27182D7C3E00B03326 /* panoImage02_image01.jpg */; };
+		6E55CEEB182D7C3E00B03326 /* panoImage03_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE2D182D7C3E00B03326 /* panoImage03_image01.jpg */; };
+		6E55CEEC182D7C3E00B03326 /* panoImage03_image02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE2E182D7C3E00B03326 /* panoImage03_image02.jpg */; };
+		6E55CEF2182D7C3E00B03326 /* panoImage04_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE34182D7C3E00B03326 /* panoImage04_image01.jpg */; };
+		6E55CEF8182D7C3E00B03326 /* panoImage05_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE3A182D7C3E00B03326 /* panoImage05_image01.jpg */; };
+		6E55CEFE182D7C3E00B03326 /* panoImage06_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE40182D7C3E00B03326 /* panoImage06_image01.jpg */; };
+		6E55CF04182D7C3E00B03326 /* panoImage07_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE46182D7C3E00B03326 /* panoImage07_image01.jpg */; };
+		6E55CF0A182D7C3E00B03326 /* panoImage08_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE4C182D7C3E00B03326 /* panoImage08_image01.jpg */; };
+		6E55CF10182D7C3E00B03326 /* panoImage09_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE52182D7C3E00B03326 /* panoImage09_image01.jpg */; };
+		6E55CF16182D7C3E00B03326 /* panoImage10_image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E55CE58182D7C3E00B03326 /* panoImage10_image01.jpg */; };
+		6E5752EB182AF17F0080AAC7 /* ProcedureSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E5752EA182AF17F0080AAC7 /* ProcedureSectionView.xib */; };
+		6E5752EE182AF1BD0080AAC7 /* ProcedureSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5752ED182AF1BD0080AAC7 /* ProcedureSectionView.m */; };
+		6E604FE0183F9B4F00876B84 /* Animations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E604FDF183F9B4F00876B84 /* Animations.plist */; };
+		6E604FE3183F9E9400876B84 /* AnimationsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E604FE2183F9E9400876B84 /* AnimationsTableCell.m */; };
+		6E604FE5183FA01900876B84 /* AnimationsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E604FE4183FA01900876B84 /* AnimationsTableCell.xib */; };
+		6E604FEC183FA73E00876B84 /* canineGuidance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E604FE8183FA73E00876B84 /* canineGuidance.mp4 */; };
+		6E604FED183FA73E00876B84 /* dentureCuspMovement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E604FE9183FA73E00876B84 /* dentureCuspMovement.mp4 */; };
+		6E604FEE183FA73E00876B84 /* groupFunction.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E604FEA183FA73E00876B84 /* groupFunction.mp4 */; };
+		6E604FEF183FA73E00876B84 /* naturalOcclusions.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E604FEB183FA73E00876B84 /* naturalOcclusions.mp4 */; };
+		6E6164D0183EB70A0070F1F1 /* AnimationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6164CF183EB70A0070F1F1 /* AnimationsTableViewController.m */; };
+		6E63502C18229CD700CF6DFE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63502B18229CD700CF6DFE /* RootViewController.m */; };
+		6E6C4E051852421200B727CC /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E041852421200B727CC /* styles.css */; };
+		6E6C4E861852422100B727CC /* BalancedDentureOcclusionDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E071852422100B727CC /* BalancedDentureOcclusionDiag.html */; };
+		6E6C4E871852422100B727CC /* BalancedDentureOcclusionPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E081852422100B727CC /* BalancedDentureOcclusionPostProc.html */; };
+		6E6C4E881852422100B727CC /* BalancedDentureOcclusionPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E091852422100B727CC /* BalancedDentureOcclusionPreProc.html */; };
+		6E6C4E891852422100B727CC /* BalancedDentureOcclusionProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E0A1852422100B727CC /* BalancedDentureOcclusionProc.html */; };
+		6E6C4E8A1852422100B727CC /* BalancedDentureOcclusionSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E0B1852422100B727CC /* BalancedDentureOcclusionSummary.html */; };
+		6E6C4E8B1852422100B727CC /* CDInsertionDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E0C1852422100B727CC /* CDInsertionDiag.html */; };
+		6E6C4E8C1852422100B727CC /* CDInsertionPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E0D1852422100B727CC /* CDInsertionPostProc.html */; };
+		6E6C4E8D1852422100B727CC /* CDInsertionPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E0E1852422100B727CC /* CDInsertionPreProc.html */; };
+		6E6C4E8E1852422100B727CC /* CDInsertionProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E0F1852422100B727CC /* CDInsertionProc.html */; };
+		6E6C4E8F1852422100B727CC /* CDInsertionSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E101852422100B727CC /* CDInsertionSummary.html */; };
+		6E6C4E901852422100B727CC /* dentureCuspMovementDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E111852422100B727CC /* dentureCuspMovementDiag.html */; };
+		6E6C4E911852422100B727CC /* dentureCuspMovementPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E121852422100B727CC /* dentureCuspMovementPostProc.html */; };
+		6E6C4E921852422100B727CC /* dentureCuspMovementPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E131852422100B727CC /* dentureCuspMovementPreProc.html */; };
+		6E6C4E931852422100B727CC /* dentureCuspMovementProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E141852422100B727CC /* dentureCuspMovementProc.html */; };
+		6E6C4E941852422100B727CC /* dentureCuspMovementSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E151852422100B727CC /* dentureCuspMovementSummary.html */; };
+		6E6C4E951852422100B727CC /* facebow-HanauDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E161852422100B727CC /* facebow-HanauDiag.html */; };
+		6E6C4E961852422100B727CC /* facebow-HanauPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E171852422100B727CC /* facebow-HanauPostProc.html */; };
+		6E6C4E971852422100B727CC /* facebow-HanauPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E181852422100B727CC /* facebow-HanauPreProc.html */; };
+		6E6C4E981852422100B727CC /* facebow-HanauProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E191852422100B727CC /* facebow-HanauProc.html */; };
+		6E6C4E991852422100B727CC /* facebow-HanauSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E1A1852422100B727CC /* facebow-HanauSummary.html */; };
+		6E6C4E9A1852422100B727CC /* facebow-WhipMixDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E1B1852422100B727CC /* facebow-WhipMixDiag.html */; };
+		6E6C4E9B1852422100B727CC /* facebow-WhipMixPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E1C1852422100B727CC /* facebow-WhipMixPostProc.html */; };
+		6E6C4E9C1852422100B727CC /* facebow-WhipMixPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E1D1852422100B727CC /* facebow-WhipMixPreProc.html */; };
+		6E6C4E9D1852422100B727CC /* facebow-WhipMixProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E1E1852422100B727CC /* facebow-WhipMixProc.html */; };
+		6E6C4E9E1852422100B727CC /* facebow-WhipMixSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E1F1852422100B727CC /* facebow-WhipMixSummary.html */; };
+		6E6C4E9F1852422100B727CC /* facebowDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E201852422100B727CC /* facebowDiag.html */; };
+		6E6C4EA01852422100B727CC /* facebowPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E211852422100B727CC /* facebowPostProc.html */; };
+		6E6C4EA11852422100B727CC /* facebowPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E221852422100B727CC /* facebowPreProc.html */; };
+		6E6C4EA21852422100B727CC /* facebowProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E231852422100B727CC /* facebowProc.html */; };
+		6E6C4EA31852422100B727CC /* facebowSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E241852422100B727CC /* facebowSummary.html */; };
+		6E6C4EA41852422100B727CC /* implantOverdentureDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E251852422100B727CC /* implantOverdentureDiag.html */; };
+		6E6C4EA51852422100B727CC /* implantOverdenturePostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E261852422100B727CC /* implantOverdenturePostProc.html */; };
+		6E6C4EA61852422100B727CC /* implantOverdenturePreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E271852422100B727CC /* implantOverdenturePreProc.html */; };
+		6E6C4EA71852422100B727CC /* implantOverdentureProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E281852422100B727CC /* implantOverdentureProc.html */; };
+		6E6C4EA81852422100B727CC /* implantOverdentureSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E291852422100B727CC /* implantOverdentureSummary.html */; };
+		6E6C4EA91852422100B727CC /* mandibularImpressionsDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E2A1852422100B727CC /* mandibularImpressionsDiag.html */; };
+		6E6C4EAA1852422100B727CC /* mandibularImpressionsPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E2B1852422100B727CC /* mandibularImpressionsPostProc.html */; };
+		6E6C4EAB1852422100B727CC /* mandibularImpressionsPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E2C1852422100B727CC /* mandibularImpressionsPreProc.html */; };
+		6E6C4EAC1852422100B727CC /* mandibularImpressionsProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E2D1852422100B727CC /* mandibularImpressionsProc.html */; };
+		6E6C4EAD1852422100B727CC /* mandibularImpressionsSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E2E1852422100B727CC /* mandibularImpressionsSummary.html */; };
+		6E6C4EAE1852422100B727CC /* max-manRecordsDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E2F1852422100B727CC /* max-manRecordsDiag.html */; };
+		6E6C4EAF1852422100B727CC /* max-manRecordsPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E301852422100B727CC /* max-manRecordsPostProc.html */; };
+		6E6C4EB01852422100B727CC /* max-manRecordsPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E311852422100B727CC /* max-manRecordsPreProc.html */; };
+		6E6C4EB11852422100B727CC /* max-manRecordsProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E321852422100B727CC /* max-manRecordsProc.html */; };
+		6E6C4EB21852422100B727CC /* max-manRecordsSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E331852422100B727CC /* max-manRecordsSummary.html */; };
+		6E6C4EB31852422100B727CC /* maxillaryImpressionsDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E341852422100B727CC /* maxillaryImpressionsDiag.html */; };
+		6E6C4EB41852422100B727CC /* maxillaryImpressionsPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E351852422100B727CC /* maxillaryImpressionsPostProc.html */; };
+		6E6C4EB51852422100B727CC /* maxillaryImpressionsPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E361852422100B727CC /* maxillaryImpressionsPreProc.html */; };
+		6E6C4EB61852422100B727CC /* maxillaryImpressionsProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E371852422100B727CC /* maxillaryImpressionsProc.html */; };
+		6E6C4EB71852422100B727CC /* maxillaryImpressionsSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E381852422100B727CC /* maxillaryImpressionsSummary.html */; };
+		6E6C4EB81852422100B727CC /* MonoplaneDentureOcclusionDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E391852422100B727CC /* MonoplaneDentureOcclusionDiag.html */; };
+		6E6C4EB91852422100B727CC /* MonoplaneDentureOcclusionPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E3A1852422100B727CC /* MonoplaneDentureOcclusionPostProc.html */; };
+		6E6C4EBA1852422100B727CC /* MonoplaneDentureOcclusionPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E3B1852422100B727CC /* MonoplaneDentureOcclusionPreProc.html */; };
+		6E6C4EBB1852422100B727CC /* MonoplaneDentureOcclusionProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E3C1852422100B727CC /* MonoplaneDentureOcclusionProc.html */; };
+		6E6C4EBC1852422100B727CC /* MonoplaneDentureOcclusionSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E3D1852422100B727CC /* MonoplaneDentureOcclusionSummary.html */; };
+		6E6C4EBD1852422100B727CC /* panoImage01Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E3E1852422100B727CC /* panoImage01Diag.html */; };
+		6E6C4EBE1852422100B727CC /* panoImage01PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E3F1852422100B727CC /* panoImage01PostProc.html */; };
+		6E6C4EBF1852422100B727CC /* panoImage01PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E401852422100B727CC /* panoImage01PreProc.html */; };
+		6E6C4EC01852422100B727CC /* panoImage01Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E411852422100B727CC /* panoImage01Proc.html */; };
+		6E6C4EC11852422100B727CC /* panoImage01Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E421852422100B727CC /* panoImage01Summary.html */; };
+		6E6C4EC21852422100B727CC /* panoImage02_image01.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E431852422100B727CC /* panoImage02_image01.html */; };
+		6E6C4EC31852422100B727CC /* panoImage02Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E441852422100B727CC /* panoImage02Diag.html */; };
+		6E6C4EC41852422100B727CC /* panoImage02PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E451852422100B727CC /* panoImage02PostProc.html */; };
+		6E6C4EC51852422100B727CC /* panoImage02PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E461852422100B727CC /* panoImage02PreProc.html */; };
+		6E6C4EC61852422100B727CC /* panoImage02Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E471852422100B727CC /* panoImage02Proc.html */; };
+		6E6C4EC71852422100B727CC /* panoImage02Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E481852422100B727CC /* panoImage02Summary.html */; };
+		6E6C4EC81852422100B727CC /* panoImage03Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E491852422100B727CC /* panoImage03Diag.html */; };
+		6E6C4EC91852422100B727CC /* panoImage03PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E4A1852422100B727CC /* panoImage03PostProc.html */; };
+		6E6C4ECA1852422100B727CC /* panoImage03PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E4B1852422100B727CC /* panoImage03PreProc.html */; };
+		6E6C4ECB1852422100B727CC /* panoImage03Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E4C1852422100B727CC /* panoImage03Proc.html */; };
+		6E6C4ECC1852422100B727CC /* panoImage03Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E4D1852422100B727CC /* panoImage03Summary.html */; };
+		6E6C4ECD1852422100B727CC /* panoImage04Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E4E1852422100B727CC /* panoImage04Diag.html */; };
+		6E6C4ECE1852422100B727CC /* panoImage04PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E4F1852422100B727CC /* panoImage04PostProc.html */; };
+		6E6C4ECF1852422100B727CC /* panoImage04PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E501852422100B727CC /* panoImage04PreProc.html */; };
+		6E6C4ED01852422100B727CC /* panoImage04Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E511852422100B727CC /* panoImage04Proc.html */; };
+		6E6C4ED11852422100B727CC /* panoImage04Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E521852422100B727CC /* panoImage04Summary.html */; };
+		6E6C4ED21852422100B727CC /* panoImage05Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E531852422100B727CC /* panoImage05Diag.html */; };
+		6E6C4ED31852422100B727CC /* panoImage05PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E541852422100B727CC /* panoImage05PostProc.html */; };
+		6E6C4ED41852422100B727CC /* panoImage05PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E551852422100B727CC /* panoImage05PreProc.html */; };
+		6E6C4ED51852422100B727CC /* panoImage05Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E561852422100B727CC /* panoImage05Proc.html */; };
+		6E6C4ED61852422100B727CC /* panoImage05Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E571852422100B727CC /* panoImage05Summary.html */; };
+		6E6C4ED71852422100B727CC /* panoImage06Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E581852422100B727CC /* panoImage06Diag.html */; };
+		6E6C4ED81852422100B727CC /* panoImage06PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E591852422100B727CC /* panoImage06PostProc.html */; };
+		6E6C4ED91852422100B727CC /* panoImage06PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E5A1852422100B727CC /* panoImage06PreProc.html */; };
+		6E6C4EDA1852422100B727CC /* panoImage06Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E5B1852422100B727CC /* panoImage06Proc.html */; };
+		6E6C4EDB1852422100B727CC /* panoImage06Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E5C1852422100B727CC /* panoImage06Summary.html */; };
+		6E6C4EDC1852422100B727CC /* panoImage07Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E5D1852422100B727CC /* panoImage07Diag.html */; };
+		6E6C4EDD1852422100B727CC /* panoImage07PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E5E1852422100B727CC /* panoImage07PostProc.html */; };
+		6E6C4EDE1852422100B727CC /* panoImage07PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E5F1852422100B727CC /* panoImage07PreProc.html */; };
+		6E6C4EDF1852422100B727CC /* panoImage07Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E601852422100B727CC /* panoImage07Proc.html */; };
+		6E6C4EE01852422100B727CC /* panoImage07Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E611852422100B727CC /* panoImage07Summary.html */; };
+		6E6C4EE11852422100B727CC /* panoImage08Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E621852422100B727CC /* panoImage08Diag.html */; };
+		6E6C4EE21852422100B727CC /* panoImage08PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E631852422100B727CC /* panoImage08PostProc.html */; };
+		6E6C4EE31852422100B727CC /* panoImage08PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E641852422100B727CC /* panoImage08PreProc.html */; };
+		6E6C4EE41852422100B727CC /* panoImage08Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E651852422100B727CC /* panoImage08Proc.html */; };
+		6E6C4EE51852422100B727CC /* panoImage08Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E661852422100B727CC /* panoImage08Summary.html */; };
+		6E6C4EE61852422100B727CC /* panoImage09Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E671852422100B727CC /* panoImage09Diag.html */; };
+		6E6C4EE71852422100B727CC /* panoImage09PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E681852422100B727CC /* panoImage09PostProc.html */; };
+		6E6C4EE81852422100B727CC /* panoImage09PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E691852422100B727CC /* panoImage09PreProc.html */; };
+		6E6C4EE91852422100B727CC /* panoImage09Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E6A1852422100B727CC /* panoImage09Proc.html */; };
+		6E6C4EEA1852422100B727CC /* panoImage09Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E6B1852422100B727CC /* panoImage09Summary.html */; };
+		6E6C4EEB1852422100B727CC /* panoImage10Diag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E6C1852422100B727CC /* panoImage10Diag.html */; };
+		6E6C4EEC1852422100B727CC /* panoImage10PostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E6D1852422100B727CC /* panoImage10PostProc.html */; };
+		6E6C4EED1852422100B727CC /* panoImage10PreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E6E1852422100B727CC /* panoImage10PreProc.html */; };
+		6E6C4EEE1852422100B727CC /* panoImage10Proc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E6F1852422100B727CC /* panoImage10Proc.html */; };
+		6E6C4EEF1852422100B727CC /* panoImage10Summary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E701852422100B727CC /* panoImage10Summary.html */; };
+		6E6C4EF01852422100B727CC /* proceraCrownDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E711852422100B727CC /* proceraCrownDiag.html */; };
+		6E6C4EF11852422100B727CC /* proceraCrownPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E721852422100B727CC /* proceraCrownPostProc.html */; };
+		6E6C4EF21852422100B727CC /* proceraCrownPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E731852422100B727CC /* proceraCrownPreProc.html */; };
+		6E6C4EF31852422100B727CC /* proceraCrownProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E741852422100B727CC /* proceraCrownProc.html */; };
+		6E6C4EF41852422100B727CC /* proceraCrownSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E751852422100B727CC /* proceraCrownSummary.html */; };
+		6E6C4EF51852422100B727CC /* proceraFabricationDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E761852422100B727CC /* proceraFabricationDiag.html */; };
+		6E6C4EF61852422100B727CC /* proceraFabricationPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E771852422100B727CC /* proceraFabricationPostProc.html */; };
+		6E6C4EF71852422100B727CC /* proceraFabricationPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E781852422100B727CC /* proceraFabricationPreProc.html */; };
+		6E6C4EF81852422100B727CC /* proceraFabricationProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E791852422100B727CC /* proceraFabricationProc.html */; };
+		6E6C4EF91852422100B727CC /* proceraFabricationSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E7A1852422100B727CC /* proceraFabricationSummary.html */; };
+		6E6C4EFA1852422100B727CC /* proceraScanningDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E7B1852422100B727CC /* proceraScanningDiag.html */; };
+		6E6C4EFB1852422100B727CC /* proceraScanningPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E7C1852422100B727CC /* proceraScanningPostProc.html */; };
+		6E6C4EFC1852422100B727CC /* proceraScanningPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E7D1852422100B727CC /* proceraScanningPreProc.html */; };
+		6E6C4EFD1852422100B727CC /* proceraScanningProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E7E1852422100B727CC /* proceraScanningProc.html */; };
+		6E6C4EFE1852422100B727CC /* proceraScanningSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E7F1852422100B727CC /* proceraScanningSummary.html */; };
+		6E6C4EFF1852422100B727CC /* tryInDiag.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E801852422100B727CC /* tryInDiag.html */; };
+		6E6C4F001852422100B727CC /* tryInPostProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E811852422100B727CC /* tryInPostProc.html */; };
+		6E6C4F011852422100B727CC /* tryInPreProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E821852422100B727CC /* tryInPreProc.html */; };
+		6E6C4F021852422100B727CC /* tryInProc.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E831852422100B727CC /* tryInProc.html */; };
+		6E6C4F031852422100B727CC /* tryInSummary.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C4E841852422100B727CC /* tryInSummary.html */; };
+		6E76664A1828378600D5157B /* UIColor+AppDefinedColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7666491828378600D5157B /* UIColor+AppDefinedColors.m */; };
+		6E79E9D51850E86A00AF5DC5 /* HelpPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E79E9D31850E86A00AF5DC5 /* HelpPopupViewController.m */; };
+		6E79E9D61850E86A00AF5DC5 /* HelpPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E79E9D41850E86A00AF5DC5 /* HelpPopupViewController.xib */; };
+		6E8C5C9B183A801600C5286E /* FavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C5C9A183A801600C5286E /* FavoritesTableViewController.m */; };
+		6E8C8B0518297F8900200C6F /* ProcedureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C8B0418297F8900200C6F /* ProcedureViewController.m */; };
+		6E8C8B081829A47C00200C6F /* ProcedureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C8B071829A47C00200C6F /* ProcedureModel.m */; };
+		6EA2456E187EFA8900C6F1CF /* NavigationMenuCategoryTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2456D187EFA8900C6F1CF /* NavigationMenuCategoryTableCell.m */; };
+		6EA24570187EFAA800C6F1CF /* NavigationMenuCategoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2456F187EFAA800C6F1CF /* NavigationMenuCategoryTableCell.xib */; };
+		6EA24573187F0A1400C6F1CF /* NavigationMenuCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA24572187F0A1400C6F1CF /* NavigationMenuCategoryTableViewController.m */; };
+		6EB6E72718804ACE003B0B14 /* NavigationMenuFavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB6E72618804ACE003B0B14 /* NavigationMenuFavoritesTableViewController.m */; };
+		6EB6E72A18804B6A003B0B14 /* NavigationMenuFavoritesTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB6E72918804B6A003B0B14 /* NavigationMenuFavoritesTableCell.m */; };
+		6EB6E72C18804B8C003B0B14 /* NavigationMenuFavoritesTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB6E72B18804B8C003B0B14 /* NavigationMenuFavoritesTableCell.xib */; };
+		6EBEDBBE181ACFA500ED3D85 /* ProceduresTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEDBBD181ACFA500ED3D85 /* ProceduresTableCell.xib */; };
+		6EBEDBC1181ACFFF00ED3D85 /* ProceduresTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEDBC0181ACFFF00ED3D85 /* ProceduresTableCell.m */; };
+		6EBEDBC3181AF7F400ED3D85 /* Procedures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEDBC2181AF7F400ED3D85 /* Procedures.plist */; };
+		6EBEDBC6181B01A600ED3D85 /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBEDBC5181B01A600ED3D85 /* NSDictionary-MutableDeepCopy.m */; };
+		6EC755A4183BB2F5001EB047 /* FavoritesTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC755A3183BB2F5001EB047 /* FavoritesTableCell.m */; };
+		6EC755A6183BB31C001EB047 /* FavoritesTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC755A5183BB31C001EB047 /* FavoritesTableCell.xib */; };
+		6EFBEB0D182163FE00C239BC /* HiddenPanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFBEB0C182163FE00C239BC /* HiddenPanelCell.m */; };
+		6EFC33951819B85C0036C954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC33941819B85C0036C954 /* Foundation.framework */; };
+		6EFC33971819B85C0036C954 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC33961819B85C0036C954 /* CoreGraphics.framework */; };
+		6EFC33991819B85C0036C954 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC33981819B85C0036C954 /* UIKit.framework */; };
+		6EFC339F1819B85C0036C954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFC339D1819B85C0036C954 /* InfoPlist.strings */; };
+		6EFC33A11819B85C0036C954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC33A01819B85C0036C954 /* main.m */; };
+		6EFC33A51819B85C0036C954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC33A41819B85C0036C954 /* AppDelegate.m */; };
+		6EFC33A81819B85C0036C954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFC33A61819B85C0036C954 /* Main.storyboard */; };
+		6EFC33AD1819B85C0036C954 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFC33AC1819B85C0036C954 /* Images.xcassets */; };
+		6EFC33B41819B85C0036C954 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC33B31819B85C0036C954 /* XCTest.framework */; };
+		6EFC33B51819B85C0036C954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC33941819B85C0036C954 /* Foundation.framework */; };
+		6EFC33B61819B85C0036C954 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFC33981819B85C0036C954 /* UIKit.framework */; };
+		6EFC33BE1819B85C0036C954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EFC33BC1819B85C0036C954 /* InfoPlist.strings */; };
+		6EFC33C01819B85C0036C954 /* ProceduresConsultTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC33BF1819B85C0036C954 /* ProceduresConsultTemplateTests.m */; };
+		6EFC33CC1819C1400036C954 /* ExpandableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC33CB1819C1400036C954 /* ExpandableTableViewController.m */; };
+		6EFC33CF1819C1C50036C954 /* ExpandableTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC33CE1819C1C50036C954 /* ExpandableTableSectionHeaderView.m */; };
+		6EFF476A1843AF3400DB5A29 /* ToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF47691843AF3400DB5A29 /* ToastViewController.m */; };
+		6EFF476F1843B4F700DB5A29 /* FavoritesConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF476D1843B4F700DB5A29 /* FavoritesConfirmationViewController.m */; };
+		6EFF47701843B4F700DB5A29 /* FavoritesConfirmationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF476E1843B4F700DB5A29 /* FavoritesConfirmationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EFC33B71819B85C0036C954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EFC33891819B85C0036C954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFC33901819B85C0036C954;
+			remoteInfo = ProceduresConsultTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E0DF58C183687C400710706 /* FavoritesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesManager.h; sourceTree = "<group>"; };
+		6E0DF58D183687C400710706 /* FavoritesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesManager.m; sourceTree = "<group>"; };
+		6E0DF5901836A17B00710706 /* AcknowledgmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcknowledgmentsViewController.h; sourceTree = "<group>"; };
+		6E0DF5911836A17B00710706 /* AcknowledgmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcknowledgmentsViewController.m; sourceTree = "<group>"; };
+		6E0DF5941836C4BE00710706 /* NavigationMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuViewController.h; sourceTree = "<group>"; };
+		6E0DF5951836C4BE00710706 /* NavigationMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuViewController.m; sourceTree = "<group>"; };
+		6E103F06183415AD00574296 /* SwipeBackInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeBackInteractionController.h; sourceTree = "<group>"; };
+		6E103F07183415AD00574296 /* SwipeBackInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeBackInteractionController.m; sourceTree = "<group>"; };
+		6E16EB7A18352D0600FA135A /* UserDefaultsConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsConsts.h; sourceTree = "<group>"; };
+		6E16EB7B18352D0600FA135A /* UserDefaultsConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsConsts.m; sourceTree = "<group>"; };
+		6E16EB7E183556F100FA135A /* balancedDentureOcclusion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = balancedDentureOcclusion.mp4; sourceTree = "<group>"; };
+		6E16EB7F183556F100FA135A /* monoplaneDentureOcclusion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monoplaneDentureOcclusion.mp4; sourceTree = "<group>"; };
+		6E16EB80183556F100FA135A /* CDInsertion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CDInsertion.mp4; sourceTree = "<group>"; };
+		6E16EB81183556F100FA135A /* dentureTryIn.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dentureTryIn.mp4; sourceTree = "<group>"; };
+		6E16EB82183556F100FA135A /* facebow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = facebow.mp4; sourceTree = "<group>"; };
+		6E16EB83183556F100FA135A /* facebowHanau.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = facebowHanau.mp4; sourceTree = "<group>"; };
+		6E16EB84183556F100FA135A /* facebowWhipMix.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = facebowWhipMix.mp4; sourceTree = "<group>"; };
+		6E16EB85183556F100FA135A /* implantOverdenture.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = implantOverdenture.mp4; sourceTree = "<group>"; };
+		6E16EB86183556F100FA135A /* mandibularImpressions.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mandibularImpressions.mp4; sourceTree = "<group>"; };
+		6E16EB87183556F100FA135A /* max-manRecords.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "max-manRecords.mp4"; sourceTree = "<group>"; };
+		6E16EB88183556F100FA135A /* maxillaryImpressions.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = maxillaryImpressions.mp4; sourceTree = "<group>"; };
+		6E16EB89183556F100FA135A /* panoImage01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage01.mp4; sourceTree = "<group>"; };
+		6E16EB8A183556F100FA135A /* panoImage02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage02.mp4; sourceTree = "<group>"; };
+		6E16EB8B183556F100FA135A /* panoImage03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage03.mp4; sourceTree = "<group>"; };
+		6E16EB8C183556F100FA135A /* panoImage04.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage04.mp4; sourceTree = "<group>"; };
+		6E16EB8D183556F100FA135A /* panoImage05.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage05.mp4; sourceTree = "<group>"; };
+		6E16EB8E183556F200FA135A /* panoImage06.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage06.mp4; sourceTree = "<group>"; };
+		6E16EB8F183556F200FA135A /* panoImage07.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage07.mp4; sourceTree = "<group>"; };
+		6E16EB90183556F200FA135A /* panoImage08.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage08.mp4; sourceTree = "<group>"; };
+		6E16EB91183556F200FA135A /* panoImage09.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage09.mp4; sourceTree = "<group>"; };
+		6E16EB92183556F200FA135A /* panoImage10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panoImage10.mp4; sourceTree = "<group>"; };
+		6E16EB93183556F200FA135A /* proceraCrownFabCement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = proceraCrownFabCement.mp4; sourceTree = "<group>"; };
+		6E16EB94183556F200FA135A /* proceraCrownPrep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = proceraCrownPrep.mp4; sourceTree = "<group>"; };
+		6E16EB95183556F200FA135A /* proceraCrownPrepOrig.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = proceraCrownPrepOrig.mp4; sourceTree = "<group>"; };
+		6E16EB96183556F200FA135A /* proceraCrownScanning.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = proceraCrownScanning.mp4; sourceTree = "<group>"; };
+		6E1862B41832763100831D9F /* ProcedureTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcedureTransitionManager.h; sourceTree = "<group>"; };
+		6E1862B51832763100831D9F /* ProcedureTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcedureTransitionManager.m; sourceTree = "<group>"; };
+		6E3AFD12187DE0F80078A156 /* ProceduresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProceduresTableViewController.h; sourceTree = "<group>"; };
+		6E3AFD13187DE0F80078A156 /* ProceduresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProceduresTableViewController.m; sourceTree = "<group>"; };
+		6E3AFD15187E039F0078A156 /* NavMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavMenuViewController.h; sourceTree = "<group>"; };
+		6E3AFD16187E039F0078A156 /* NavMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavMenuViewController.m; sourceTree = "<group>"; };
+		6E44FB4B18563280008EEFA5 /* Acknowledgements.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Acknowledgements.html; sourceTree = "<group>"; };
+		6E55CDB5182D7C3D00B03326 /* Balanced01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced01.jpg; sourceTree = "<group>"; };
+		6E55CDB6182D7C3D00B03326 /* Balanced02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced02.jpg; sourceTree = "<group>"; };
+		6E55CDB7182D7C3D00B03326 /* Balanced03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced03.jpg; sourceTree = "<group>"; };
+		6E55CDB8182D7C3D00B03326 /* Balanced04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced04.jpg; sourceTree = "<group>"; };
+		6E55CDB9182D7C3D00B03326 /* Balanced05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced05.jpg; sourceTree = "<group>"; };
+		6E55CDBA182D7C3E00B03326 /* Balanced06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced06.jpg; sourceTree = "<group>"; };
+		6E55CDBB182D7C3E00B03326 /* Balanced07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced07.jpg; sourceTree = "<group>"; };
+		6E55CDBC182D7C3E00B03326 /* Balanced08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced08.jpg; sourceTree = "<group>"; };
+		6E55CDBD182D7C3E00B03326 /* Balanced09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanced09.jpg; sourceTree = "<group>"; };
+		6E55CDC3182D7C3E00B03326 /* CDInsertion01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CDInsertion01.jpg; sourceTree = "<group>"; };
+		6E55CDC4182D7C3E00B03326 /* CDInsertion02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CDInsertion02.jpg; sourceTree = "<group>"; };
+		6E55CDC5182D7C3E00B03326 /* CDInsertion03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CDInsertion03.jpg; sourceTree = "<group>"; };
+		6E55CDC6182D7C3E00B03326 /* CDInsertion04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CDInsertion04.jpg; sourceTree = "<group>"; };
+		6E55CDC7182D7C3E00B03326 /* CDInsertion05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CDInsertion05.jpg; sourceTree = "<group>"; };
+		6E55CDDC182D7C3E00B03326 /* Facebow01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Facebow01.jpg; sourceTree = "<group>"; };
+		6E55CDDD182D7C3E00B03326 /* Facebow02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Facebow02.jpg; sourceTree = "<group>"; };
+		6E55CDDE182D7C3E00B03326 /* Facebow03-Hanau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Facebow03-Hanau.jpg"; sourceTree = "<group>"; };
+		6E55CDDF182D7C3E00B03326 /* Facebow03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Facebow03.jpg; sourceTree = "<group>"; };
+		6E55CDE0182D7C3E00B03326 /* Facebow03a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Facebow03a.jpg; sourceTree = "<group>"; };
+		6E55CDE6182D7C3E00B03326 /* ImplantOverdenture01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImplantOverdenture01.jpg; sourceTree = "<group>"; };
+		6E55CDE7182D7C3E00B03326 /* ImplantOverdenture02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImplantOverdenture02.jpg; sourceTree = "<group>"; };
+		6E55CDE8182D7C3E00B03326 /* ImplantOverdenture03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImplantOverdenture03.jpg; sourceTree = "<group>"; };
+		6E55CDE9182D7C3E00B03326 /* ImplantOverdenture04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImplantOverdenture04.jpg; sourceTree = "<group>"; };
+		6E55CDEA182D7C3E00B03326 /* ImplantOverdenture05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImplantOverdenture05.jpg; sourceTree = "<group>"; };
+		6E55CDEB182D7C3E00B03326 /* ImplantOverdenture06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImplantOverdenture06.jpg; sourceTree = "<group>"; };
+		6E55CDF1182D7C3E00B03326 /* MandibularImpressions01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions01.jpg; sourceTree = "<group>"; };
+		6E55CDF2182D7C3E00B03326 /* MandibularImpressions02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions02.jpg; sourceTree = "<group>"; };
+		6E55CDF3182D7C3E00B03326 /* MandibularImpressions03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions03.jpg; sourceTree = "<group>"; };
+		6E55CDF4182D7C3E00B03326 /* MandibularImpressions04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions04.jpg; sourceTree = "<group>"; };
+		6E55CDF5182D7C3E00B03326 /* MandibularImpressions05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions05.jpg; sourceTree = "<group>"; };
+		6E55CDF6182D7C3E00B03326 /* MandibularImpressions06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions06.jpg; sourceTree = "<group>"; };
+		6E55CDF7182D7C3E00B03326 /* MandibularImpressions07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions07.jpg; sourceTree = "<group>"; };
+		6E55CDF8182D7C3E00B03326 /* MandibularImpressions08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions08.jpg; sourceTree = "<group>"; };
+		6E55CDF9182D7C3E00B03326 /* MandibularImpressions09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandibularImpressions09.jpg; sourceTree = "<group>"; };
+		6E55CDFF182D7C3E00B03326 /* Max-manRecords01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords01.jpg"; sourceTree = "<group>"; };
+		6E55CE00182D7C3E00B03326 /* Max-manRecords02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords02.jpg"; sourceTree = "<group>"; };
+		6E55CE01182D7C3E00B03326 /* Max-manRecords03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords03.jpg"; sourceTree = "<group>"; };
+		6E55CE02182D7C3E00B03326 /* Max-manRecords04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords04.jpg"; sourceTree = "<group>"; };
+		6E55CE03182D7C3E00B03326 /* Max-manRecords05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords05.jpg"; sourceTree = "<group>"; };
+		6E55CE04182D7C3E00B03326 /* Max-manRecords06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords06.jpg"; sourceTree = "<group>"; };
+		6E55CE05182D7C3E00B03326 /* Max-manRecords07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords07.jpg"; sourceTree = "<group>"; };
+		6E55CE06182D7C3E00B03326 /* Max-manRecords08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Max-manRecords08.jpg"; sourceTree = "<group>"; };
+		6E55CE0C182D7C3E00B03326 /* MaxillaryImpressions01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaxillaryImpressions01.jpg; sourceTree = "<group>"; };
+		6E55CE0D182D7C3E00B03326 /* MaxillaryImpressions02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaxillaryImpressions02.jpg; sourceTree = "<group>"; };
+		6E55CE0E182D7C3E00B03326 /* MaxillaryImpressions03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaxillaryImpressions03.jpg; sourceTree = "<group>"; };
+		6E55CE0F182D7C3E00B03326 /* MaxillaryImpressions04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaxillaryImpressions04.jpg; sourceTree = "<group>"; };
+		6E55CE10182D7C3E00B03326 /* MaxillaryImpressions05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaxillaryImpressions05.jpg; sourceTree = "<group>"; };
+		6E55CE11182D7C3E00B03326 /* MaxillaryImpressions06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaxillaryImpressions06.jpg; sourceTree = "<group>"; };
+		6E55CE12182D7C3E00B03326 /* MaxillaryImpressions07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaxillaryImpressions07.jpg; sourceTree = "<group>"; };
+		6E55CE18182D7C3E00B03326 /* MonoplaneDentureOcclusion01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MonoplaneDentureOcclusion01.jpg; sourceTree = "<group>"; };
+		6E55CE19182D7C3E00B03326 /* MonoplaneDentureOcclusion02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MonoplaneDentureOcclusion02.jpg; sourceTree = "<group>"; };
+		6E55CE1A182D7C3E00B03326 /* MonoplaneDentureOcclusion03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MonoplaneDentureOcclusion03.jpg; sourceTree = "<group>"; };
+		6E55CE1B182D7C3E00B03326 /* MonoplaneDentureOcclusion04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MonoplaneDentureOcclusion04.jpg; sourceTree = "<group>"; };
+		6E55CE27182D7C3E00B03326 /* panoImage02_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage02_image01.jpg; sourceTree = "<group>"; };
+		6E55CE2D182D7C3E00B03326 /* panoImage03_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage03_image01.jpg; sourceTree = "<group>"; };
+		6E55CE2E182D7C3E00B03326 /* panoImage03_image02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage03_image02.jpg; sourceTree = "<group>"; };
+		6E55CE34182D7C3E00B03326 /* panoImage04_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage04_image01.jpg; sourceTree = "<group>"; };
+		6E55CE3A182D7C3E00B03326 /* panoImage05_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage05_image01.jpg; sourceTree = "<group>"; };
+		6E55CE40182D7C3E00B03326 /* panoImage06_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage06_image01.jpg; sourceTree = "<group>"; };
+		6E55CE46182D7C3E00B03326 /* panoImage07_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage07_image01.jpg; sourceTree = "<group>"; };
+		6E55CE4C182D7C3E00B03326 /* panoImage08_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage08_image01.jpg; sourceTree = "<group>"; };
+		6E55CE52182D7C3E00B03326 /* panoImage09_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage09_image01.jpg; sourceTree = "<group>"; };
+		6E55CE58182D7C3E00B03326 /* panoImage10_image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoImage10_image01.jpg; sourceTree = "<group>"; };
+		6E5752EA182AF17F0080AAC7 /* ProcedureSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProcedureSectionView.xib; sourceTree = "<group>"; };
+		6E5752EC182AF1BD0080AAC7 /* ProcedureSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcedureSectionView.h; sourceTree = "<group>"; };
+		6E5752ED182AF1BD0080AAC7 /* ProcedureSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcedureSectionView.m; sourceTree = "<group>"; };
+		6E604FDF183F9B4F00876B84 /* Animations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Animations.plist; sourceTree = "<group>"; };
+		6E604FE1183F9E9400876B84 /* AnimationsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsTableCell.h; sourceTree = "<group>"; };
+		6E604FE2183F9E9400876B84 /* AnimationsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsTableCell.m; sourceTree = "<group>"; };
+		6E604FE4183FA01900876B84 /* AnimationsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationsTableCell.xib; sourceTree = "<group>"; };
+		6E604FE8183FA73E00876B84 /* canineGuidance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = canineGuidance.mp4; sourceTree = "<group>"; };
+		6E604FE9183FA73E00876B84 /* dentureCuspMovement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dentureCuspMovement.mp4; sourceTree = "<group>"; };
+		6E604FEA183FA73E00876B84 /* groupFunction.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = groupFunction.mp4; sourceTree = "<group>"; };
+		6E604FEB183FA73E00876B84 /* naturalOcclusions.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = naturalOcclusions.mp4; sourceTree = "<group>"; };
+		6E6164CE183EB70A0070F1F1 /* AnimationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsTableViewController.h; sourceTree = "<group>"; };
+		6E6164CF183EB70A0070F1F1 /* AnimationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsTableViewController.m; sourceTree = "<group>"; };
+		6E63502A18229CD700CF6DFE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6E63502B18229CD700CF6DFE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6E6C4E041852421200B727CC /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		6E6C4E071852422100B727CC /* BalancedDentureOcclusionDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BalancedDentureOcclusionDiag.html; sourceTree = "<group>"; };
+		6E6C4E081852422100B727CC /* BalancedDentureOcclusionPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BalancedDentureOcclusionPostProc.html; sourceTree = "<group>"; };
+		6E6C4E091852422100B727CC /* BalancedDentureOcclusionPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BalancedDentureOcclusionPreProc.html; sourceTree = "<group>"; };
+		6E6C4E0A1852422100B727CC /* BalancedDentureOcclusionProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BalancedDentureOcclusionProc.html; sourceTree = "<group>"; };
+		6E6C4E0B1852422100B727CC /* BalancedDentureOcclusionSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BalancedDentureOcclusionSummary.html; sourceTree = "<group>"; };
+		6E6C4E0C1852422100B727CC /* CDInsertionDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CDInsertionDiag.html; sourceTree = "<group>"; };
+		6E6C4E0D1852422100B727CC /* CDInsertionPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CDInsertionPostProc.html; sourceTree = "<group>"; };
+		6E6C4E0E1852422100B727CC /* CDInsertionPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CDInsertionPreProc.html; sourceTree = "<group>"; };
+		6E6C4E0F1852422100B727CC /* CDInsertionProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CDInsertionProc.html; sourceTree = "<group>"; };
+		6E6C4E101852422100B727CC /* CDInsertionSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CDInsertionSummary.html; sourceTree = "<group>"; };
+		6E6C4E111852422100B727CC /* dentureCuspMovementDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dentureCuspMovementDiag.html; sourceTree = "<group>"; };
+		6E6C4E121852422100B727CC /* dentureCuspMovementPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dentureCuspMovementPostProc.html; sourceTree = "<group>"; };
+		6E6C4E131852422100B727CC /* dentureCuspMovementPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dentureCuspMovementPreProc.html; sourceTree = "<group>"; };
+		6E6C4E141852422100B727CC /* dentureCuspMovementProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dentureCuspMovementProc.html; sourceTree = "<group>"; };
+		6E6C4E151852422100B727CC /* dentureCuspMovementSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dentureCuspMovementSummary.html; sourceTree = "<group>"; };
+		6E6C4E161852422100B727CC /* facebow-HanauDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-HanauDiag.html"; sourceTree = "<group>"; };
+		6E6C4E171852422100B727CC /* facebow-HanauPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-HanauPostProc.html"; sourceTree = "<group>"; };
+		6E6C4E181852422100B727CC /* facebow-HanauPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-HanauPreProc.html"; sourceTree = "<group>"; };
+		6E6C4E191852422100B727CC /* facebow-HanauProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-HanauProc.html"; sourceTree = "<group>"; };
+		6E6C4E1A1852422100B727CC /* facebow-HanauSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-HanauSummary.html"; sourceTree = "<group>"; };
+		6E6C4E1B1852422100B727CC /* facebow-WhipMixDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-WhipMixDiag.html"; sourceTree = "<group>"; };
+		6E6C4E1C1852422100B727CC /* facebow-WhipMixPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-WhipMixPostProc.html"; sourceTree = "<group>"; };
+		6E6C4E1D1852422100B727CC /* facebow-WhipMixPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-WhipMixPreProc.html"; sourceTree = "<group>"; };
+		6E6C4E1E1852422100B727CC /* facebow-WhipMixProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-WhipMixProc.html"; sourceTree = "<group>"; };
+		6E6C4E1F1852422100B727CC /* facebow-WhipMixSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "facebow-WhipMixSummary.html"; sourceTree = "<group>"; };
+		6E6C4E201852422100B727CC /* facebowDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebowDiag.html; sourceTree = "<group>"; };
+		6E6C4E211852422100B727CC /* facebowPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebowPostProc.html; sourceTree = "<group>"; };
+		6E6C4E221852422100B727CC /* facebowPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebowPreProc.html; sourceTree = "<group>"; };
+		6E6C4E231852422100B727CC /* facebowProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebowProc.html; sourceTree = "<group>"; };
+		6E6C4E241852422100B727CC /* facebowSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebowSummary.html; sourceTree = "<group>"; };
+		6E6C4E251852422100B727CC /* implantOverdentureDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = implantOverdentureDiag.html; sourceTree = "<group>"; };
+		6E6C4E261852422100B727CC /* implantOverdenturePostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = implantOverdenturePostProc.html; sourceTree = "<group>"; };
+		6E6C4E271852422100B727CC /* implantOverdenturePreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = implantOverdenturePreProc.html; sourceTree = "<group>"; };
+		6E6C4E281852422100B727CC /* implantOverdentureProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = implantOverdentureProc.html; sourceTree = "<group>"; };
+		6E6C4E291852422100B727CC /* implantOverdentureSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = implantOverdentureSummary.html; sourceTree = "<group>"; };
+		6E6C4E2A1852422100B727CC /* mandibularImpressionsDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mandibularImpressionsDiag.html; sourceTree = "<group>"; };
+		6E6C4E2B1852422100B727CC /* mandibularImpressionsPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mandibularImpressionsPostProc.html; sourceTree = "<group>"; };
+		6E6C4E2C1852422100B727CC /* mandibularImpressionsPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mandibularImpressionsPreProc.html; sourceTree = "<group>"; };
+		6E6C4E2D1852422100B727CC /* mandibularImpressionsProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mandibularImpressionsProc.html; sourceTree = "<group>"; };
+		6E6C4E2E1852422100B727CC /* mandibularImpressionsSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mandibularImpressionsSummary.html; sourceTree = "<group>"; };
+		6E6C4E2F1852422100B727CC /* max-manRecordsDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "max-manRecordsDiag.html"; sourceTree = "<group>"; };
+		6E6C4E301852422100B727CC /* max-manRecordsPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "max-manRecordsPostProc.html"; sourceTree = "<group>"; };
+		6E6C4E311852422100B727CC /* max-manRecordsPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "max-manRecordsPreProc.html"; sourceTree = "<group>"; };
+		6E6C4E321852422100B727CC /* max-manRecordsProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "max-manRecordsProc.html"; sourceTree = "<group>"; };
+		6E6C4E331852422100B727CC /* max-manRecordsSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "max-manRecordsSummary.html"; sourceTree = "<group>"; };
+		6E6C4E341852422100B727CC /* maxillaryImpressionsDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maxillaryImpressionsDiag.html; sourceTree = "<group>"; };
+		6E6C4E351852422100B727CC /* maxillaryImpressionsPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maxillaryImpressionsPostProc.html; sourceTree = "<group>"; };
+		6E6C4E361852422100B727CC /* maxillaryImpressionsPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maxillaryImpressionsPreProc.html; sourceTree = "<group>"; };
+		6E6C4E371852422100B727CC /* maxillaryImpressionsProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maxillaryImpressionsProc.html; sourceTree = "<group>"; };
+		6E6C4E381852422100B727CC /* maxillaryImpressionsSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maxillaryImpressionsSummary.html; sourceTree = "<group>"; };
+		6E6C4E391852422100B727CC /* MonoplaneDentureOcclusionDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MonoplaneDentureOcclusionDiag.html; sourceTree = "<group>"; };
+		6E6C4E3A1852422100B727CC /* MonoplaneDentureOcclusionPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MonoplaneDentureOcclusionPostProc.html; sourceTree = "<group>"; };
+		6E6C4E3B1852422100B727CC /* MonoplaneDentureOcclusionPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MonoplaneDentureOcclusionPreProc.html; sourceTree = "<group>"; };
+		6E6C4E3C1852422100B727CC /* MonoplaneDentureOcclusionProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MonoplaneDentureOcclusionProc.html; sourceTree = "<group>"; };
+		6E6C4E3D1852422100B727CC /* MonoplaneDentureOcclusionSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MonoplaneDentureOcclusionSummary.html; sourceTree = "<group>"; };
+		6E6C4E3E1852422100B727CC /* panoImage01Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage01Diag.html; sourceTree = "<group>"; };
+		6E6C4E3F1852422100B727CC /* panoImage01PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage01PostProc.html; sourceTree = "<group>"; };
+		6E6C4E401852422100B727CC /* panoImage01PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage01PreProc.html; sourceTree = "<group>"; };
+		6E6C4E411852422100B727CC /* panoImage01Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage01Proc.html; sourceTree = "<group>"; };
+		6E6C4E421852422100B727CC /* panoImage01Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage01Summary.html; sourceTree = "<group>"; };
+		6E6C4E431852422100B727CC /* panoImage02_image01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage02_image01.html; sourceTree = "<group>"; };
+		6E6C4E441852422100B727CC /* panoImage02Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage02Diag.html; sourceTree = "<group>"; };
+		6E6C4E451852422100B727CC /* panoImage02PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage02PostProc.html; sourceTree = "<group>"; };
+		6E6C4E461852422100B727CC /* panoImage02PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage02PreProc.html; sourceTree = "<group>"; };
+		6E6C4E471852422100B727CC /* panoImage02Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage02Proc.html; sourceTree = "<group>"; };
+		6E6C4E481852422100B727CC /* panoImage02Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage02Summary.html; sourceTree = "<group>"; };
+		6E6C4E491852422100B727CC /* panoImage03Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage03Diag.html; sourceTree = "<group>"; };
+		6E6C4E4A1852422100B727CC /* panoImage03PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage03PostProc.html; sourceTree = "<group>"; };
+		6E6C4E4B1852422100B727CC /* panoImage03PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage03PreProc.html; sourceTree = "<group>"; };
+		6E6C4E4C1852422100B727CC /* panoImage03Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage03Proc.html; sourceTree = "<group>"; };
+		6E6C4E4D1852422100B727CC /* panoImage03Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage03Summary.html; sourceTree = "<group>"; };
+		6E6C4E4E1852422100B727CC /* panoImage04Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage04Diag.html; sourceTree = "<group>"; };
+		6E6C4E4F1852422100B727CC /* panoImage04PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage04PostProc.html; sourceTree = "<group>"; };
+		6E6C4E501852422100B727CC /* panoImage04PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage04PreProc.html; sourceTree = "<group>"; };
+		6E6C4E511852422100B727CC /* panoImage04Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage04Proc.html; sourceTree = "<group>"; };
+		6E6C4E521852422100B727CC /* panoImage04Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage04Summary.html; sourceTree = "<group>"; };
+		6E6C4E531852422100B727CC /* panoImage05Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage05Diag.html; sourceTree = "<group>"; };
+		6E6C4E541852422100B727CC /* panoImage05PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage05PostProc.html; sourceTree = "<group>"; };
+		6E6C4E551852422100B727CC /* panoImage05PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage05PreProc.html; sourceTree = "<group>"; };
+		6E6C4E561852422100B727CC /* panoImage05Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage05Proc.html; sourceTree = "<group>"; };
+		6E6C4E571852422100B727CC /* panoImage05Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage05Summary.html; sourceTree = "<group>"; };
+		6E6C4E581852422100B727CC /* panoImage06Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage06Diag.html; sourceTree = "<group>"; };
+		6E6C4E591852422100B727CC /* panoImage06PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage06PostProc.html; sourceTree = "<group>"; };
+		6E6C4E5A1852422100B727CC /* panoImage06PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage06PreProc.html; sourceTree = "<group>"; };
+		6E6C4E5B1852422100B727CC /* panoImage06Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage06Proc.html; sourceTree = "<group>"; };
+		6E6C4E5C1852422100B727CC /* panoImage06Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage06Summary.html; sourceTree = "<group>"; };
+		6E6C4E5D1852422100B727CC /* panoImage07Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage07Diag.html; sourceTree = "<group>"; };
+		6E6C4E5E1852422100B727CC /* panoImage07PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage07PostProc.html; sourceTree = "<group>"; };
+		6E6C4E5F1852422100B727CC /* panoImage07PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage07PreProc.html; sourceTree = "<group>"; };
+		6E6C4E601852422100B727CC /* panoImage07Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage07Proc.html; sourceTree = "<group>"; };
+		6E6C4E611852422100B727CC /* panoImage07Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage07Summary.html; sourceTree = "<group>"; };
+		6E6C4E621852422100B727CC /* panoImage08Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage08Diag.html; sourceTree = "<group>"; };
+		6E6C4E631852422100B727CC /* panoImage08PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage08PostProc.html; sourceTree = "<group>"; };
+		6E6C4E641852422100B727CC /* panoImage08PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage08PreProc.html; sourceTree = "<group>"; };
+		6E6C4E651852422100B727CC /* panoImage08Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage08Proc.html; sourceTree = "<group>"; };
+		6E6C4E661852422100B727CC /* panoImage08Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage08Summary.html; sourceTree = "<group>"; };
+		6E6C4E671852422100B727CC /* panoImage09Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage09Diag.html; sourceTree = "<group>"; };
+		6E6C4E681852422100B727CC /* panoImage09PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage09PostProc.html; sourceTree = "<group>"; };
+		6E6C4E691852422100B727CC /* panoImage09PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage09PreProc.html; sourceTree = "<group>"; };
+		6E6C4E6A1852422100B727CC /* panoImage09Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage09Proc.html; sourceTree = "<group>"; };
+		6E6C4E6B1852422100B727CC /* panoImage09Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage09Summary.html; sourceTree = "<group>"; };
+		6E6C4E6C1852422100B727CC /* panoImage10Diag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage10Diag.html; sourceTree = "<group>"; };
+		6E6C4E6D1852422100B727CC /* panoImage10PostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage10PostProc.html; sourceTree = "<group>"; };
+		6E6C4E6E1852422100B727CC /* panoImage10PreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage10PreProc.html; sourceTree = "<group>"; };
+		6E6C4E6F1852422100B727CC /* panoImage10Proc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage10Proc.html; sourceTree = "<group>"; };
+		6E6C4E701852422100B727CC /* panoImage10Summary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = panoImage10Summary.html; sourceTree = "<group>"; };
+		6E6C4E711852422100B727CC /* proceraCrownDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraCrownDiag.html; sourceTree = "<group>"; };
+		6E6C4E721852422100B727CC /* proceraCrownPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraCrownPostProc.html; sourceTree = "<group>"; };
+		6E6C4E731852422100B727CC /* proceraCrownPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraCrownPreProc.html; sourceTree = "<group>"; };
+		6E6C4E741852422100B727CC /* proceraCrownProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraCrownProc.html; sourceTree = "<group>"; };
+		6E6C4E751852422100B727CC /* proceraCrownSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraCrownSummary.html; sourceTree = "<group>"; };
+		6E6C4E761852422100B727CC /* proceraFabricationDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraFabricationDiag.html; sourceTree = "<group>"; };
+		6E6C4E771852422100B727CC /* proceraFabricationPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraFabricationPostProc.html; sourceTree = "<group>"; };
+		6E6C4E781852422100B727CC /* proceraFabricationPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraFabricationPreProc.html; sourceTree = "<group>"; };
+		6E6C4E791852422100B727CC /* proceraFabricationProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraFabricationProc.html; sourceTree = "<group>"; };
+		6E6C4E7A1852422100B727CC /* proceraFabricationSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraFabricationSummary.html; sourceTree = "<group>"; };
+		6E6C4E7B1852422100B727CC /* proceraScanningDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraScanningDiag.html; sourceTree = "<group>"; };
+		6E6C4E7C1852422100B727CC /* proceraScanningPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraScanningPostProc.html; sourceTree = "<group>"; };
+		6E6C4E7D1852422100B727CC /* proceraScanningPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraScanningPreProc.html; sourceTree = "<group>"; };
+		6E6C4E7E1852422100B727CC /* proceraScanningProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraScanningProc.html; sourceTree = "<group>"; };
+		6E6C4E7F1852422100B727CC /* proceraScanningSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceraScanningSummary.html; sourceTree = "<group>"; };
+		6E6C4E801852422100B727CC /* tryInDiag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tryInDiag.html; sourceTree = "<group>"; };
+		6E6C4E811852422100B727CC /* tryInPostProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tryInPostProc.html; sourceTree = "<group>"; };
+		6E6C4E821852422100B727CC /* tryInPreProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tryInPreProc.html; sourceTree = "<group>"; };
+		6E6C4E831852422100B727CC /* tryInProc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tryInProc.html; sourceTree = "<group>"; };
+		6E6C4E841852422100B727CC /* tryInSummary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tryInSummary.html; sourceTree = "<group>"; };
+		6E7666481828378600D5157B /* UIColor+AppDefinedColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppDefinedColors.h"; sourceTree = "<group>"; };
+		6E7666491828378600D5157B /* UIColor+AppDefinedColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppDefinedColors.m"; sourceTree = "<group>"; };
+		6E79E9D21850E86A00AF5DC5 /* HelpPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpPopupViewController.h; sourceTree = "<group>"; };
+		6E79E9D31850E86A00AF5DC5 /* HelpPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpPopupViewController.m; sourceTree = "<group>"; };
+		6E79E9D41850E86A00AF5DC5 /* HelpPopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpPopupViewController.xib; sourceTree = "<group>"; };
+		6E8C5C99183A801600C5286E /* FavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewController.h; sourceTree = "<group>"; };
+		6E8C5C9A183A801600C5286E /* FavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewController.m; sourceTree = "<group>"; };
+		6E8C8B0318297F8900200C6F /* ProcedureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcedureViewController.h; sourceTree = "<group>"; };
+		6E8C8B0418297F8900200C6F /* ProcedureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcedureViewController.m; sourceTree = "<group>"; };
+		6E8C8B061829A47C00200C6F /* ProcedureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcedureModel.h; sourceTree = "<group>"; };
+		6E8C8B071829A47C00200C6F /* ProcedureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcedureModel.m; sourceTree = "<group>"; };
+		6EA2456C187EFA8900C6F1CF /* NavigationMenuCategoryTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuCategoryTableCell.h; sourceTree = "<group>"; };
+		6EA2456D187EFA8900C6F1CF /* NavigationMenuCategoryTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuCategoryTableCell.m; sourceTree = "<group>"; };
+		6EA2456F187EFAA800C6F1CF /* NavigationMenuCategoryTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationMenuCategoryTableCell.xib; sourceTree = "<group>"; };
+		6EA24571187F0A1400C6F1CF /* NavigationMenuCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuCategoryTableViewController.h; sourceTree = "<group>"; };
+		6EA24572187F0A1400C6F1CF /* NavigationMenuCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuCategoryTableViewController.m; sourceTree = "<group>"; };
+		6EB6E72518804ACE003B0B14 /* NavigationMenuFavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuFavoritesTableViewController.h; sourceTree = "<group>"; };
+		6EB6E72618804ACE003B0B14 /* NavigationMenuFavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuFavoritesTableViewController.m; sourceTree = "<group>"; };
+		6EB6E72818804B6A003B0B14 /* NavigationMenuFavoritesTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenuFavoritesTableCell.h; sourceTree = "<group>"; };
+		6EB6E72918804B6A003B0B14 /* NavigationMenuFavoritesTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationMenuFavoritesTableCell.m; sourceTree = "<group>"; };
+		6EB6E72B18804B8C003B0B14 /* NavigationMenuFavoritesTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationMenuFavoritesTableCell.xib; sourceTree = "<group>"; };
+		6EBEDBBD181ACFA500ED3D85 /* ProceduresTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProceduresTableCell.xib; sourceTree = "<group>"; };
+		6EBEDBBF181ACFFF00ED3D85 /* ProceduresTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProceduresTableCell.h; sourceTree = "<group>"; };
+		6EBEDBC0181ACFFF00ED3D85 /* ProceduresTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProceduresTableCell.m; sourceTree = "<group>"; };
+		6EBEDBC2181AF7F400ED3D85 /* Procedures.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Procedures.plist; sourceTree = "<group>"; };
+		6EBEDBC4181B01A600ED3D85 /* NSDictionary-MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-MutableDeepCopy.h"; sourceTree = "<group>"; };
+		6EBEDBC5181B01A600ED3D85 /* NSDictionary-MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-MutableDeepCopy.m"; sourceTree = "<group>"; };
+		6EC755A2183BB2F5001EB047 /* FavoritesTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableCell.h; sourceTree = "<group>"; };
+		6EC755A3183BB2F5001EB047 /* FavoritesTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableCell.m; sourceTree = "<group>"; };
+		6EC755A5183BB31C001EB047 /* FavoritesTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesTableCell.xib; sourceTree = "<group>"; };
+		6EFBEB0B182163FE00C239BC /* HiddenPanelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenPanelCell.h; sourceTree = "<group>"; };
+		6EFBEB0C182163FE00C239BC /* HiddenPanelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenPanelCell.m; sourceTree = "<group>"; };
+		6EFC33911819B85C0036C954 /* clinicalLabSciences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clinicalLabSciences.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFC33941819B85C0036C954 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EFC33961819B85C0036C954 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EFC33981819B85C0036C954 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EFC339C1819B85C0036C954 /* ClinicalLabSciences-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClinicalLabSciences-Info.plist"; sourceTree = "<group>"; };
+		6EFC339E1819B85C0036C954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EFC33A01819B85C0036C954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EFC33A21819B85C0036C954 /* ClinicalLabSciences-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClinicalLabSciences-Prefix.pch"; sourceTree = "<group>"; };
+		6EFC33A31819B85C0036C954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EFC33A41819B85C0036C954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EFC33A71819B85C0036C954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EFC33AC1819B85C0036C954 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EFC33B21819B85C0036C954 /* ClinicalLabSciencesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClinicalLabSciencesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFC33B31819B85C0036C954 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6EFC33BB1819B85C0036C954 /* ClinicalLabSciencesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClinicalLabSciencesTests-Info.plist"; sourceTree = "<group>"; };
+		6EFC33BD1819B85C0036C954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EFC33BF1819B85C0036C954 /* ProceduresConsultTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProceduresConsultTemplateTests.m; sourceTree = "<group>"; };
+		6EFC33CA1819C1400036C954 /* ExpandableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableTableViewController.h; sourceTree = "<group>"; };
+		6EFC33CB1819C1400036C954 /* ExpandableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableViewController.m; sourceTree = "<group>"; };
+		6EFC33CD1819C1C50036C954 /* ExpandableTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableTableSectionHeaderView.h; sourceTree = "<group>"; };
+		6EFC33CE1819C1C50036C954 /* ExpandableTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableSectionHeaderView.m; sourceTree = "<group>"; };
+		6EFF47681843AF3400DB5A29 /* ToastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastViewController.h; sourceTree = "<group>"; };
+		6EFF47691843AF3400DB5A29 /* ToastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastViewController.m; sourceTree = "<group>"; };
+		6EFF476C1843B4F700DB5A29 /* FavoritesConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesConfirmationViewController.h; sourceTree = "<group>"; };
+		6EFF476D1843B4F700DB5A29 /* FavoritesConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesConfirmationViewController.m; sourceTree = "<group>"; };
+		6EFF476E1843B4F700DB5A29 /* FavoritesConfirmationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesConfirmationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EFC338E1819B85C0036C954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFC33971819B85C0036C954 /* CoreGraphics.framework in Frameworks */,
+				6EFC33991819B85C0036C954 /* UIKit.framework in Frameworks */,
+				6EFC33951819B85C0036C954 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFC33AF1819B85C0036C954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFC33B41819B85C0036C954 /* XCTest.framework in Frameworks */,
+				6EFC33B61819B85C0036C954 /* UIKit.framework in Frameworks */,
+				6EFC33B51819B85C0036C954 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0DF58F1836A15700710706 /* Acknowledgments */ = {
+			isa = PBXGroup;
+			children = (
+				6E0DF5901836A17B00710706 /* AcknowledgmentsViewController.h */,
+				6E0DF5911836A17B00710706 /* AcknowledgmentsViewController.m */,
+			);
+			name = Acknowledgments;
+			sourceTree = "<group>";
+		};
+		6E0DF5931836C49900710706 /* Navigation Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6E63502A18229CD700CF6DFE /* RootViewController.h */,
+				6E63502B18229CD700CF6DFE /* RootViewController.m */,
+				6E0DF5941836C4BE00710706 /* NavigationMenuViewController.h */,
+				6E0DF5951836C4BE00710706 /* NavigationMenuViewController.m */,
+				6E3AFD15187E039F0078A156 /* NavMenuViewController.h */,
+				6E3AFD16187E039F0078A156 /* NavMenuViewController.m */,
+				6EA24571187F0A1400C6F1CF /* NavigationMenuCategoryTableViewController.h */,
+				6EA24572187F0A1400C6F1CF /* NavigationMenuCategoryTableViewController.m */,
+				6EA2456C187EFA8900C6F1CF /* NavigationMenuCategoryTableCell.h */,
+				6EA2456D187EFA8900C6F1CF /* NavigationMenuCategoryTableCell.m */,
+				6EA2456F187EFAA800C6F1CF /* NavigationMenuCategoryTableCell.xib */,
+				6EB6E72518804ACE003B0B14 /* NavigationMenuFavoritesTableViewController.h */,
+				6EB6E72618804ACE003B0B14 /* NavigationMenuFavoritesTableViewController.m */,
+				6EB6E72818804B6A003B0B14 /* NavigationMenuFavoritesTableCell.h */,
+				6EB6E72918804B6A003B0B14 /* NavigationMenuFavoritesTableCell.m */,
+				6EB6E72B18804B8C003B0B14 /* NavigationMenuFavoritesTableCell.xib */,
+			);
+			name = "Navigation Menu";
+			sourceTree = "<group>";
+		};
+		6E16EB7D183556B900FA135A /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				6E604FE7183FA72600876B84 /* Animations */,
+				6E604FE6183FA71500876B84 /* Procedures */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		6E1862B3183275FE00831D9F /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				6E1862B41832763100831D9F /* ProcedureTransitionManager.h */,
+				6E1862B51832763100831D9F /* ProcedureTransitionManager.m */,
+				6E103F06183415AD00574296 /* SwipeBackInteractionController.h */,
+				6E103F07183415AD00574296 /* SwipeBackInteractionController.m */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		6E55CDB3182D7BC100B03326 /* HTML Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E6C4E041852421200B727CC /* styles.css */,
+				6E44FB4B18563280008EEFA5 /* Acknowledgements.html */,
+				6E6C4E071852422100B727CC /* BalancedDentureOcclusionDiag.html */,
+				6E6C4E081852422100B727CC /* BalancedDentureOcclusionPostProc.html */,
+				6E6C4E091852422100B727CC /* BalancedDentureOcclusionPreProc.html */,
+				6E6C4E0A1852422100B727CC /* BalancedDentureOcclusionProc.html */,
+				6E6C4E0B1852422100B727CC /* BalancedDentureOcclusionSummary.html */,
+				6E6C4E0C1852422100B727CC /* CDInsertionDiag.html */,
+				6E6C4E0D1852422100B727CC /* CDInsertionPostProc.html */,
+				6E6C4E0E1852422100B727CC /* CDInsertionPreProc.html */,
+				6E6C4E0F1852422100B727CC /* CDInsertionProc.html */,
+				6E6C4E101852422100B727CC /* CDInsertionSummary.html */,
+				6E6C4E111852422100B727CC /* dentureCuspMovementDiag.html */,
+				6E6C4E121852422100B727CC /* dentureCuspMovementPostProc.html */,
+				6E6C4E131852422100B727CC /* dentureCuspMovementPreProc.html */,
+				6E6C4E141852422100B727CC /* dentureCuspMovementProc.html */,
+				6E6C4E151852422100B727CC /* dentureCuspMovementSummary.html */,
+				6E6C4E161852422100B727CC /* facebow-HanauDiag.html */,
+				6E6C4E171852422100B727CC /* facebow-HanauPostProc.html */,
+				6E6C4E181852422100B727CC /* facebow-HanauPreProc.html */,
+				6E6C4E191852422100B727CC /* facebow-HanauProc.html */,
+				6E6C4E1A1852422100B727CC /* facebow-HanauSummary.html */,
+				6E6C4E1B1852422100B727CC /* facebow-WhipMixDiag.html */,
+				6E6C4E1C1852422100B727CC /* facebow-WhipMixPostProc.html */,
+				6E6C4E1D1852422100B727CC /* facebow-WhipMixPreProc.html */,
+				6E6C4E1E1852422100B727CC /* facebow-WhipMixProc.html */,
+				6E6C4E1F1852422100B727CC /* facebow-WhipMixSummary.html */,
+				6E6C4E201852422100B727CC /* facebowDiag.html */,
+				6E6C4E211852422100B727CC /* facebowPostProc.html */,
+				6E6C4E221852422100B727CC /* facebowPreProc.html */,
+				6E6C4E231852422100B727CC /* facebowProc.html */,
+				6E6C4E241852422100B727CC /* facebowSummary.html */,
+				6E6C4E251852422100B727CC /* implantOverdentureDiag.html */,
+				6E6C4E261852422100B727CC /* implantOverdenturePostProc.html */,
+				6E6C4E271852422100B727CC /* implantOverdenturePreProc.html */,
+				6E6C4E281852422100B727CC /* implantOverdentureProc.html */,
+				6E6C4E291852422100B727CC /* implantOverdentureSummary.html */,
+				6E6C4E2A1852422100B727CC /* mandibularImpressionsDiag.html */,
+				6E6C4E2B1852422100B727CC /* mandibularImpressionsPostProc.html */,
+				6E6C4E2C1852422100B727CC /* mandibularImpressionsPreProc.html */,
+				6E6C4E2D1852422100B727CC /* mandibularImpressionsProc.html */,
+				6E6C4E2E1852422100B727CC /* mandibularImpressionsSummary.html */,
+				6E6C4E2F1852422100B727CC /* max-manRecordsDiag.html */,
+				6E6C4E301852422100B727CC /* max-manRecordsPostProc.html */,
+				6E6C4E311852422100B727CC /* max-manRecordsPreProc.html */,
+				6E6C4E321852422100B727CC /* max-manRecordsProc.html */,
+				6E6C4E331852422100B727CC /* max-manRecordsSummary.html */,
+				6E6C4E341852422100B727CC /* maxillaryImpressionsDiag.html */,
+				6E6C4E351852422100B727CC /* maxillaryImpressionsPostProc.html */,
+				6E6C4E361852422100B727CC /* maxillaryImpressionsPreProc.html */,
+				6E6C4E371852422100B727CC /* maxillaryImpressionsProc.html */,
+				6E6C4E381852422100B727CC /* maxillaryImpressionsSummary.html */,
+				6E6C4E391852422100B727CC /* MonoplaneDentureOcclusionDiag.html */,
+				6E6C4E3A1852422100B727CC /* MonoplaneDentureOcclusionPostProc.html */,
+				6E6C4E3B1852422100B727CC /* MonoplaneDentureOcclusionPreProc.html */,
+				6E6C4E3C1852422100B727CC /* MonoplaneDentureOcclusionProc.html */,
+				6E6C4E3D1852422100B727CC /* MonoplaneDentureOcclusionSummary.html */,
+				6E6C4E3E1852422100B727CC /* panoImage01Diag.html */,
+				6E6C4E3F1852422100B727CC /* panoImage01PostProc.html */,
+				6E6C4E401852422100B727CC /* panoImage01PreProc.html */,
+				6E6C4E411852422100B727CC /* panoImage01Proc.html */,
+				6E6C4E421852422100B727CC /* panoImage01Summary.html */,
+				6E6C4E431852422100B727CC /* panoImage02_image01.html */,
+				6E6C4E441852422100B727CC /* panoImage02Diag.html */,
+				6E6C4E451852422100B727CC /* panoImage02PostProc.html */,
+				6E6C4E461852422100B727CC /* panoImage02PreProc.html */,
+				6E6C4E471852422100B727CC /* panoImage02Proc.html */,
+				6E6C4E481852422100B727CC /* panoImage02Summary.html */,
+				6E6C4E491852422100B727CC /* panoImage03Diag.html */,
+				6E6C4E4A1852422100B727CC /* panoImage03PostProc.html */,
+				6E6C4E4B1852422100B727CC /* panoImage03PreProc.html */,
+				6E6C4E4C1852422100B727CC /* panoImage03Proc.html */,
+				6E6C4E4D1852422100B727CC /* panoImage03Summary.html */,
+				6E6C4E4E1852422100B727CC /* panoImage04Diag.html */,
+				6E6C4E4F1852422100B727CC /* panoImage04PostProc.html */,
+				6E6C4E501852422100B727CC /* panoImage04PreProc.html */,
+				6E6C4E511852422100B727CC /* panoImage04Proc.html */,
+				6E6C4E521852422100B727CC /* panoImage04Summary.html */,
+				6E6C4E531852422100B727CC /* panoImage05Diag.html */,
+				6E6C4E541852422100B727CC /* panoImage05PostProc.html */,
+				6E6C4E551852422100B727CC /* panoImage05PreProc.html */,
+				6E6C4E561852422100B727CC /* panoImage05Proc.html */,
+				6E6C4E571852422100B727CC /* panoImage05Summary.html */,
+				6E6C4E581852422100B727CC /* panoImage06Diag.html */,
+				6E6C4E591852422100B727CC /* panoImage06PostProc.html */,
+				6E6C4E5A1852422100B727CC /* panoImage06PreProc.html */,
+				6E6C4E5B1852422100B727CC /* panoImage06Proc.html */,
+				6E6C4E5C1852422100B727CC /* panoImage06Summary.html */,
+				6E6C4E5D1852422100B727CC /* panoImage07Diag.html */,
+				6E6C4E5E1852422100B727CC /* panoImage07PostProc.html */,
+				6E6C4E5F1852422100B727CC /* panoImage07PreProc.html */,
+				6E6C4E601852422100B727CC /* panoImage07Proc.html */,
+				6E6C4E611852422100B727CC /* panoImage07Summary.html */,
+				6E6C4E621852422100B727CC /* panoImage08Diag.html */,
+				6E6C4E631852422100B727CC /* panoImage08PostProc.html */,
+				6E6C4E641852422100B727CC /* panoImage08PreProc.html */,
+				6E6C4E651852422100B727CC /* panoImage08Proc.html */,
+				6E6C4E661852422100B727CC /* panoImage08Summary.html */,
+				6E6C4E671852422100B727CC /* panoImage09Diag.html */,
+				6E6C4E681852422100B727CC /* panoImage09PostProc.html */,
+				6E6C4E691852422100B727CC /* panoImage09PreProc.html */,
+				6E6C4E6A1852422100B727CC /* panoImage09Proc.html */,
+				6E6C4E6B1852422100B727CC /* panoImage09Summary.html */,
+				6E6C4E6C1852422100B727CC /* panoImage10Diag.html */,
+				6E6C4E6D1852422100B727CC /* panoImage10PostProc.html */,
+				6E6C4E6E1852422100B727CC /* panoImage10PreProc.html */,
+				6E6C4E6F1852422100B727CC /* panoImage10Proc.html */,
+				6E6C4E701852422100B727CC /* panoImage10Summary.html */,
+				6E6C4E711852422100B727CC /* proceraCrownDiag.html */,
+				6E6C4E721852422100B727CC /* proceraCrownPostProc.html */,
+				6E6C4E731852422100B727CC /* proceraCrownPreProc.html */,
+				6E6C4E741852422100B727CC /* proceraCrownProc.html */,
+				6E6C4E751852422100B727CC /* proceraCrownSummary.html */,
+				6E6C4E761852422100B727CC /* proceraFabricationDiag.html */,
+				6E6C4E771852422100B727CC /* proceraFabricationPostProc.html */,
+				6E6C4E781852422100B727CC /* proceraFabricationPreProc.html */,
+				6E6C4E791852422100B727CC /* proceraFabricationProc.html */,
+				6E6C4E7A1852422100B727CC /* proceraFabricationSummary.html */,
+				6E6C4E7B1852422100B727CC /* proceraScanningDiag.html */,
+				6E6C4E7C1852422100B727CC /* proceraScanningPostProc.html */,
+				6E6C4E7D1852422100B727CC /* proceraScanningPreProc.html */,
+				6E6C4E7E1852422100B727CC /* proceraScanningProc.html */,
+				6E6C4E7F1852422100B727CC /* proceraScanningSummary.html */,
+				6E6C4E801852422100B727CC /* tryInDiag.html */,
+				6E6C4E811852422100B727CC /* tryInPostProc.html */,
+				6E6C4E821852422100B727CC /* tryInPreProc.html */,
+				6E6C4E831852422100B727CC /* tryInProc.html */,
+				6E6C4E841852422100B727CC /* tryInSummary.html */,
+				6E55CDB5182D7C3D00B03326 /* Balanced01.jpg */,
+				6E55CDB6182D7C3D00B03326 /* Balanced02.jpg */,
+				6E55CDB7182D7C3D00B03326 /* Balanced03.jpg */,
+				6E55CDB8182D7C3D00B03326 /* Balanced04.jpg */,
+				6E55CDB9182D7C3D00B03326 /* Balanced05.jpg */,
+				6E55CDBA182D7C3E00B03326 /* Balanced06.jpg */,
+				6E55CDBB182D7C3E00B03326 /* Balanced07.jpg */,
+				6E55CDBC182D7C3E00B03326 /* Balanced08.jpg */,
+				6E55CDBD182D7C3E00B03326 /* Balanced09.jpg */,
+				6E55CDC3182D7C3E00B03326 /* CDInsertion01.jpg */,
+				6E55CDC4182D7C3E00B03326 /* CDInsertion02.jpg */,
+				6E55CDC5182D7C3E00B03326 /* CDInsertion03.jpg */,
+				6E55CDC6182D7C3E00B03326 /* CDInsertion04.jpg */,
+				6E55CDC7182D7C3E00B03326 /* CDInsertion05.jpg */,
+				6E55CDDC182D7C3E00B03326 /* Facebow01.jpg */,
+				6E55CDDD182D7C3E00B03326 /* Facebow02.jpg */,
+				6E55CDDE182D7C3E00B03326 /* Facebow03-Hanau.jpg */,
+				6E55CDDF182D7C3E00B03326 /* Facebow03.jpg */,
+				6E55CDE0182D7C3E00B03326 /* Facebow03a.jpg */,
+				6E55CDE6182D7C3E00B03326 /* ImplantOverdenture01.jpg */,
+				6E55CDE7182D7C3E00B03326 /* ImplantOverdenture02.jpg */,
+				6E55CDE8182D7C3E00B03326 /* ImplantOverdenture03.jpg */,
+				6E55CDE9182D7C3E00B03326 /* ImplantOverdenture04.jpg */,
+				6E55CDEA182D7C3E00B03326 /* ImplantOverdenture05.jpg */,
+				6E55CDEB182D7C3E00B03326 /* ImplantOverdenture06.jpg */,
+				6E55CDF1182D7C3E00B03326 /* MandibularImpressions01.jpg */,
+				6E55CDF2182D7C3E00B03326 /* MandibularImpressions02.jpg */,
+				6E55CDF3182D7C3E00B03326 /* MandibularImpressions03.jpg */,
+				6E55CDF4182D7C3E00B03326 /* MandibularImpressions04.jpg */,
+				6E55CDF5182D7C3E00B03326 /* MandibularImpressions05.jpg */,
+				6E55CDF6182D7C3E00B03326 /* MandibularImpressions06.jpg */,
+				6E55CDF7182D7C3E00B03326 /* MandibularImpressions07.jpg */,
+				6E55CDF8182D7C3E00B03326 /* MandibularImpressions08.jpg */,
+				6E55CDF9182D7C3E00B03326 /* MandibularImpressions09.jpg */,
+				6E55CDFF182D7C3E00B03326 /* Max-manRecords01.jpg */,
+				6E55CE00182D7C3E00B03326 /* Max-manRecords02.jpg */,
+				6E55CE01182D7C3E00B03326 /* Max-manRecords03.jpg */,
+				6E55CE02182D7C3E00B03326 /* Max-manRecords04.jpg */,
+				6E55CE03182D7C3E00B03326 /* Max-manRecords05.jpg */,
+				6E55CE04182D7C3E00B03326 /* Max-manRecords06.jpg */,
+				6E55CE05182D7C3E00B03326 /* Max-manRecords07.jpg */,
+				6E55CE06182D7C3E00B03326 /* Max-manRecords08.jpg */,
+				6E55CE0C182D7C3E00B03326 /* MaxillaryImpressions01.jpg */,
+				6E55CE0D182D7C3E00B03326 /* MaxillaryImpressions02.jpg */,
+				6E55CE0E182D7C3E00B03326 /* MaxillaryImpressions03.jpg */,
+				6E55CE0F182D7C3E00B03326 /* MaxillaryImpressions04.jpg */,
+				6E55CE10182D7C3E00B03326 /* MaxillaryImpressions05.jpg */,
+				6E55CE11182D7C3E00B03326 /* MaxillaryImpressions06.jpg */,
+				6E55CE12182D7C3E00B03326 /* MaxillaryImpressions07.jpg */,
+				6E55CE18182D7C3E00B03326 /* MonoplaneDentureOcclusion01.jpg */,
+				6E55CE19182D7C3E00B03326 /* MonoplaneDentureOcclusion02.jpg */,
+				6E55CE1A182D7C3E00B03326 /* MonoplaneDentureOcclusion03.jpg */,
+				6E55CE1B182D7C3E00B03326 /* MonoplaneDentureOcclusion04.jpg */,
+				6E55CE27182D7C3E00B03326 /* panoImage02_image01.jpg */,
+				6E55CE2D182D7C3E00B03326 /* panoImage03_image01.jpg */,
+				6E55CE2E182D7C3E00B03326 /* panoImage03_image02.jpg */,
+				6E55CE34182D7C3E00B03326 /* panoImage04_image01.jpg */,
+				6E55CE3A182D7C3E00B03326 /* panoImage05_image01.jpg */,
+				6E55CE40182D7C3E00B03326 /* panoImage06_image01.jpg */,
+				6E55CE46182D7C3E00B03326 /* panoImage07_image01.jpg */,
+				6E55CE4C182D7C3E00B03326 /* panoImage08_image01.jpg */,
+				6E55CE52182D7C3E00B03326 /* panoImage09_image01.jpg */,
+				6E55CE58182D7C3E00B03326 /* panoImage10_image01.jpg */,
+			);
+			name = "HTML Files";
+			sourceTree = "<group>";
+		};
+		6E604FE6183FA71500876B84 /* Procedures */ = {
+			isa = PBXGroup;
+			children = (
+				6E16EB7E183556F100FA135A /* balancedDentureOcclusion.mp4 */,
+				6E16EB7F183556F100FA135A /* monoplaneDentureOcclusion.mp4 */,
+				6E16EB80183556F100FA135A /* CDInsertion.mp4 */,
+				6E16EB81183556F100FA135A /* dentureTryIn.mp4 */,
+				6E16EB82183556F100FA135A /* facebow.mp4 */,
+				6E16EB83183556F100FA135A /* facebowHanau.mp4 */,
+				6E16EB84183556F100FA135A /* facebowWhipMix.mp4 */,
+				6E16EB85183556F100FA135A /* implantOverdenture.mp4 */,
+				6E16EB86183556F100FA135A /* mandibularImpressions.mp4 */,
+				6E16EB87183556F100FA135A /* max-manRecords.mp4 */,
+				6E16EB88183556F100FA135A /* maxillaryImpressions.mp4 */,
+				6E16EB89183556F100FA135A /* panoImage01.mp4 */,
+				6E16EB8A183556F100FA135A /* panoImage02.mp4 */,
+				6E16EB8B183556F100FA135A /* panoImage03.mp4 */,
+				6E16EB8C183556F100FA135A /* panoImage04.mp4 */,
+				6E16EB8D183556F100FA135A /* panoImage05.mp4 */,
+				6E16EB8E183556F200FA135A /* panoImage06.mp4 */,
+				6E16EB8F183556F200FA135A /* panoImage07.mp4 */,
+				6E16EB90183556F200FA135A /* panoImage08.mp4 */,
+				6E16EB91183556F200FA135A /* panoImage09.mp4 */,
+				6E16EB92183556F200FA135A /* panoImage10.mp4 */,
+				6E16EB93183556F200FA135A /* proceraCrownFabCement.mp4 */,
+				6E16EB94183556F200FA135A /* proceraCrownPrep.mp4 */,
+				6E16EB95183556F200FA135A /* proceraCrownPrepOrig.mp4 */,
+				6E16EB96183556F200FA135A /* proceraCrownScanning.mp4 */,
+			);
+			name = Procedures;
+			sourceTree = "<group>";
+		};
+		6E604FE7183FA72600876B84 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6E604FE8183FA73E00876B84 /* canineGuidance.mp4 */,
+				6E604FE9183FA73E00876B84 /* dentureCuspMovement.mp4 */,
+				6E604FEA183FA73E00876B84 /* groupFunction.mp4 */,
+				6E604FEB183FA73E00876B84 /* naturalOcclusions.mp4 */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		6E79E9D11850E84100AF5DC5 /* Help Popup */ = {
+			isa = PBXGroup;
+			children = (
+				6E79E9D21850E86A00AF5DC5 /* HelpPopupViewController.h */,
+				6E79E9D31850E86A00AF5DC5 /* HelpPopupViewController.m */,
+				6E79E9D41850E86A00AF5DC5 /* HelpPopupViewController.xib */,
+			);
+			name = "Help Popup";
+			sourceTree = "<group>";
+		};
+		6E8C5C98183A7FF000C5286E /* Favorites Table */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C5C99183A801600C5286E /* FavoritesTableViewController.h */,
+				6E8C5C9A183A801600C5286E /* FavoritesTableViewController.m */,
+				6EC755A2183BB2F5001EB047 /* FavoritesTableCell.h */,
+				6EC755A3183BB2F5001EB047 /* FavoritesTableCell.m */,
+				6EC755A5183BB31C001EB047 /* FavoritesTableCell.xib */,
+			);
+			name = "Favorites Table";
+			sourceTree = "<group>";
+		};
+		6E8C8B0218297F4800200C6F /* Individual Procedures */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C8B061829A47C00200C6F /* ProcedureModel.h */,
+				6E8C8B071829A47C00200C6F /* ProcedureModel.m */,
+				6E8C8B0318297F8900200C6F /* ProcedureViewController.h */,
+				6E8C8B0418297F8900200C6F /* ProcedureViewController.m */,
+				6E5752EC182AF1BD0080AAC7 /* ProcedureSectionView.h */,
+				6E5752ED182AF1BD0080AAC7 /* ProcedureSectionView.m */,
+				6E5752EA182AF17F0080AAC7 /* ProcedureSectionView.xib */,
+			);
+			name = "Individual Procedures";
+			sourceTree = "<group>";
+		};
+		6EBEDBB0181ACDDB00ED3D85 /* Expandable Table */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC33CA1819C1400036C954 /* ExpandableTableViewController.h */,
+				6EFC33CB1819C1400036C954 /* ExpandableTableViewController.m */,
+				6EFC33CD1819C1C50036C954 /* ExpandableTableSectionHeaderView.h */,
+				6EFC33CE1819C1C50036C954 /* ExpandableTableSectionHeaderView.m */,
+			);
+			name = "Expandable Table";
+			sourceTree = "<group>";
+		};
+		6EBEDBB1181ACDEA00ED3D85 /* Procedures Table Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				6E3AFD12187DE0F80078A156 /* ProceduresTableViewController.h */,
+				6E3AFD13187DE0F80078A156 /* ProceduresTableViewController.m */,
+				6EBEDBBF181ACFFF00ED3D85 /* ProceduresTableCell.h */,
+				6EBEDBC0181ACFFF00ED3D85 /* ProceduresTableCell.m */,
+				6EBEDBBD181ACFA500ED3D85 /* ProceduresTableCell.xib */,
+			);
+			name = "Procedures Table Subclass";
+			sourceTree = "<group>";
+		};
+		6EBEDBC7181B01AE00ED3D85 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0DF58C183687C400710706 /* FavoritesManager.h */,
+				6E0DF58D183687C400710706 /* FavoritesManager.m */,
+				6EBEDBC4181B01A600ED3D85 /* NSDictionary-MutableDeepCopy.h */,
+				6EBEDBC5181B01A600ED3D85 /* NSDictionary-MutableDeepCopy.m */,
+				6E7666481828378600D5157B /* UIColor+AppDefinedColors.h */,
+				6E7666491828378600D5157B /* UIColor+AppDefinedColors.m */,
+				6E16EB7A18352D0600FA135A /* UserDefaultsConsts.h */,
+				6E16EB7B18352D0600FA135A /* UserDefaultsConsts.m */,
+			);
+			name = "Helper Files";
+			sourceTree = "<group>";
+		};
+		6EE92B28183E5DD0002CD700 /* Animations Table */ = {
+			isa = PBXGroup;
+			children = (
+				6E6164CE183EB70A0070F1F1 /* AnimationsTableViewController.h */,
+				6E6164CF183EB70A0070F1F1 /* AnimationsTableViewController.m */,
+				6E604FE1183F9E9400876B84 /* AnimationsTableCell.h */,
+				6E604FE2183F9E9400876B84 /* AnimationsTableCell.m */,
+				6E604FE4183FA01900876B84 /* AnimationsTableCell.xib */,
+			);
+			name = "Animations Table";
+			sourceTree = "<group>";
+		};
+		6EFC33881819B85C0036C954 = {
+			isa = PBXGroup;
+			children = (
+				6EFC339A1819B85C0036C954 /* ProceduresConsultTemplate */,
+				6EFC33B91819B85C0036C954 /* ProceduresConsultTemplateTests */,
+				6EFC33931819B85C0036C954 /* Frameworks */,
+				6EFC33921819B85C0036C954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EFC33921819B85C0036C954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC33911819B85C0036C954 /* clinicalLabSciences.app */,
+				6EFC33B21819B85C0036C954 /* ClinicalLabSciencesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EFC33931819B85C0036C954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC33941819B85C0036C954 /* Foundation.framework */,
+				6EFC33961819B85C0036C954 /* CoreGraphics.framework */,
+				6EFC33981819B85C0036C954 /* UIKit.framework */,
+				6EFC33B31819B85C0036C954 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFC339A1819B85C0036C954 /* ProceduresConsultTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC33A31819B85C0036C954 /* AppDelegate.h */,
+				6EFC33A41819B85C0036C954 /* AppDelegate.m */,
+				6EFC33A61819B85C0036C954 /* Main.storyboard */,
+				6E0DF5931836C49900710706 /* Navigation Menu */,
+				6E1862B3183275FE00831D9F /* Transitions */,
+				6EFC33C91819BC4C0036C954 /* Procedures List */,
+				6E8C8B0218297F4800200C6F /* Individual Procedures */,
+				6E79E9D11850E84100AF5DC5 /* Help Popup */,
+				6E0DF58F1836A15700710706 /* Acknowledgments */,
+				6EFF476B1843B4C100DB5A29 /* Confirmation Popups */,
+				6EBEDBC7181B01AE00ED3D85 /* Helper Files */,
+				6EFC339B1819B85C0036C954 /* Supporting Files */,
+			);
+			name = ProceduresConsultTemplate;
+			path = ClinicalLabSciences;
+			sourceTree = "<group>";
+		};
+		6EFC339B1819B85C0036C954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC33AC1819B85C0036C954 /* Images.xcassets */,
+				6E16EB7D183556B900FA135A /* Videos */,
+				6E55CDB3182D7BC100B03326 /* HTML Files */,
+				6E604FDF183F9B4F00876B84 /* Animations.plist */,
+				6EBEDBC2181AF7F400ED3D85 /* Procedures.plist */,
+				6EFC339C1819B85C0036C954 /* ClinicalLabSciences-Info.plist */,
+				6EFC339D1819B85C0036C954 /* InfoPlist.strings */,
+				6EFC33A01819B85C0036C954 /* main.m */,
+				6EFC33A21819B85C0036C954 /* ClinicalLabSciences-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EFC33B91819B85C0036C954 /* ProceduresConsultTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC33BF1819B85C0036C954 /* ProceduresConsultTemplateTests.m */,
+				6EFC33BA1819B85C0036C954 /* Supporting Files */,
+			);
+			name = ProceduresConsultTemplateTests;
+			path = ClinicalLabSciencesTests;
+			sourceTree = "<group>";
+		};
+		6EFC33BA1819B85C0036C954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC33BB1819B85C0036C954 /* ClinicalLabSciencesTests-Info.plist */,
+				6EFC33BC1819B85C0036C954 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EFC33C91819BC4C0036C954 /* Procedures List */ = {
+			isa = PBXGroup;
+			children = (
+				6EFBEB0B182163FE00C239BC /* HiddenPanelCell.h */,
+				6EFBEB0C182163FE00C239BC /* HiddenPanelCell.m */,
+				6EBEDBB0181ACDDB00ED3D85 /* Expandable Table */,
+				6EBEDBB1181ACDEA00ED3D85 /* Procedures Table Subclass */,
+				6E8C5C98183A7FF000C5286E /* Favorites Table */,
+				6EE92B28183E5DD0002CD700 /* Animations Table */,
+			);
+			name = "Procedures List";
+			sourceTree = "<group>";
+		};
+		6EFF476B1843B4C100DB5A29 /* Confirmation Popups */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF47681843AF3400DB5A29 /* ToastViewController.h */,
+				6EFF47691843AF3400DB5A29 /* ToastViewController.m */,
+				6EFF476C1843B4F700DB5A29 /* FavoritesConfirmationViewController.h */,
+				6EFF476D1843B4F700DB5A29 /* FavoritesConfirmationViewController.m */,
+				6EFF476E1843B4F700DB5A29 /* FavoritesConfirmationViewController.xib */,
+			);
+			name = "Confirmation Popups";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EFC33901819B85C0036C954 /* ClinicalLabSciences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFC33C31819B85C0036C954 /* Build configuration list for PBXNativeTarget "ClinicalLabSciences" */;
+			buildPhases = (
+				6EFC338D1819B85C0036C954 /* Sources */,
+				6EFC338E1819B85C0036C954 /* Frameworks */,
+				6EFC338F1819B85C0036C954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClinicalLabSciences;
+			productName = ProceduresConsultTemplate;
+			productReference = 6EFC33911819B85C0036C954 /* clinicalLabSciences.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EFC33B11819B85C0036C954 /* ClinicalLabSciencesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFC33C61819B85C0036C954 /* Build configuration list for PBXNativeTarget "ClinicalLabSciencesTests" */;
+			buildPhases = (
+				6EFC33AE1819B85C0036C954 /* Sources */,
+				6EFC33AF1819B85C0036C954 /* Frameworks */,
+				6EFC33B01819B85C0036C954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EFC33B81819B85C0036C954 /* PBXTargetDependency */,
+			);
+			name = ClinicalLabSciencesTests;
+			productName = ProceduresConsultTemplateTests;
+			productReference = 6EFC33B21819B85C0036C954 /* ClinicalLabSciencesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EFC33891819B85C0036C954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tiwhite;
+				TargetAttributes = {
+					6EFC33901819B85C0036C954 = {
+						DevelopmentTeam = U872629SXN;
+					};
+					6EFC33B11819B85C0036C954 = {
+						TestTargetID = 6EFC33901819B85C0036C954;
+					};
+				};
+			};
+			buildConfigurationList = 6EFC338C1819B85C0036C954 /* Build configuration list for PBXProject "ClinicalLabSciences" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EFC33881819B85C0036C954;
+			productRefGroup = 6EFC33921819B85C0036C954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EFC33901819B85C0036C954 /* ClinicalLabSciences */,
+				6EFC33B11819B85C0036C954 /* ClinicalLabSciencesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EFC338F1819B85C0036C954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6C4EF01852422100B727CC /* proceraCrownDiag.html in Resources */,
+				6E6C4E921852422100B727CC /* dentureCuspMovementPreProc.html in Resources */,
+				6E16EBA31835588600FA135A /* panoImage02.mp4 in Resources */,
+				6E55CEB2182D7C3E00B03326 /* MandibularImpressions04.jpg in Resources */,
+				6E6C4EE71852422100B727CC /* panoImage09PostProc.html in Resources */,
+				6E6C4E9B1852422100B727CC /* facebow-WhipMixPostProc.html in Resources */,
+				6E55CF0A182D7C3E00B03326 /* panoImage08_image01.jpg in Resources */,
+				6E6C4ECE1852422100B727CC /* panoImage04PostProc.html in Resources */,
+				6E55CEA6182D7C3E00B03326 /* ImplantOverdenture03.jpg in Resources */,
+				6E6C4EA21852422100B727CC /* facebowProc.html in Resources */,
+				6E16EBA91835588600FA135A /* panoImage08.mp4 in Resources */,
+				6E6C4EBB1852422100B727CC /* MonoplaneDentureOcclusionProc.html in Resources */,
+				6E6C4EC91852422100B727CC /* panoImage03PostProc.html in Resources */,
+				6E55CE7B182D7C3E00B03326 /* Balanced09.jpg in Resources */,
+				6E55CE9E182D7C3E00B03326 /* Facebow03a.jpg in Resources */,
+				6E6C4EF41852422100B727CC /* proceraCrownSummary.html in Resources */,
+				6E6C4EA41852422100B727CC /* implantOverdentureDiag.html in Resources */,
+				6E6C4ECC1852422100B727CC /* panoImage03Summary.html in Resources */,
+				6E6C4EF31852422100B727CC /* proceraCrownProc.html in Resources */,
+				6E55CE81182D7C3E00B03326 /* CDInsertion01.jpg in Resources */,
+				6E16EBA01835588600FA135A /* max-manRecords.mp4 in Resources */,
+				6E55CEB0182D7C3E00B03326 /* MandibularImpressions02.jpg in Resources */,
+				6E55CEE5182D7C3E00B03326 /* panoImage02_image01.jpg in Resources */,
+				6E6C4EF11852422100B727CC /* proceraCrownPostProc.html in Resources */,
+				6E6C4F021852422100B727CC /* tryInProc.html in Resources */,
+				6E16EB9B1835588600FA135A /* facebow.mp4 in Resources */,
+				6E6C4EF61852422100B727CC /* proceraFabricationPostProc.html in Resources */,
+				6E16EBA11835588600FA135A /* maxillaryImpressions.mp4 in Resources */,
+				6E55CE9B182D7C3E00B03326 /* Facebow02.jpg in Resources */,
+				6E6C4ED91852422100B727CC /* panoImage06PreProc.html in Resources */,
+				6E55CEAF182D7C3E00B03326 /* MandibularImpressions01.jpg in Resources */,
+				6E55CEA5182D7C3E00B03326 /* ImplantOverdenture02.jpg in Resources */,
+				6E6C4ECA1852422100B727CC /* panoImage03PreProc.html in Resources */,
+				6E6C4ED61852422100B727CC /* panoImage05Summary.html in Resources */,
+				6E6C4E8E1852422100B727CC /* CDInsertionProc.html in Resources */,
+				6E55CEA9182D7C3E00B03326 /* ImplantOverdenture06.jpg in Resources */,
+				6E16EBA71835588600FA135A /* panoImage06.mp4 in Resources */,
+				6E55CEB7182D7C3E00B03326 /* MandibularImpressions09.jpg in Resources */,
+				6E55CE77182D7C3E00B03326 /* Balanced05.jpg in Resources */,
+				6E16EB9D1835588600FA135A /* facebowWhipMix.mp4 in Resources */,
+				6E6C4E861852422100B727CC /* BalancedDentureOcclusionDiag.html in Resources */,
+				6E6C4E931852422100B727CC /* dentureCuspMovementProc.html in Resources */,
+				6E55CED9182D7C3E00B03326 /* MonoplaneDentureOcclusion04.jpg in Resources */,
+				6E55CF10182D7C3E00B03326 /* panoImage09_image01.jpg in Resources */,
+				6E6C4EE51852422100B727CC /* panoImage08Summary.html in Resources */,
+				6E6C4EAB1852422100B727CC /* mandibularImpressionsPreProc.html in Resources */,
+				6E6C4EB41852422100B727CC /* maxillaryImpressionsPostProc.html in Resources */,
+				6E55CECA182D7C3E00B03326 /* MaxillaryImpressions01.jpg in Resources */,
+				6E55CECC182D7C3E00B03326 /* MaxillaryImpressions03.jpg in Resources */,
+				6EBEDBBE181ACFA500ED3D85 /* ProceduresTableCell.xib in Resources */,
+				6E6C4ED01852422100B727CC /* panoImage04Proc.html in Resources */,
+				6E55CEB4182D7C3E00B03326 /* MandibularImpressions06.jpg in Resources */,
+				6E55CE85182D7C3E00B03326 /* CDInsertion05.jpg in Resources */,
+				6E6C4ED51852422100B727CC /* panoImage05Proc.html in Resources */,
+				6E55CE82182D7C3E00B03326 /* CDInsertion02.jpg in Resources */,
+				6E6C4EA11852422100B727CC /* facebowPreProc.html in Resources */,
+				6E6C4EF91852422100B727CC /* proceraFabricationSummary.html in Resources */,
+				6EA24570187EFAA800C6F1CF /* NavigationMenuCategoryTableCell.xib in Resources */,
+				6E6C4EC11852422100B727CC /* panoImage01Summary.html in Resources */,
+				6E6C4EC81852422100B727CC /* panoImage03Diag.html in Resources */,
+				6E6C4E8B1852422100B727CC /* CDInsertionDiag.html in Resources */,
+				6E6C4EEC1852422100B727CC /* panoImage10PostProc.html in Resources */,
+				6E55CEA8182D7C3E00B03326 /* ImplantOverdenture05.jpg in Resources */,
+				6E6C4EB61852422100B727CC /* maxillaryImpressionsProc.html in Resources */,
+				6E6C4ECB1852422100B727CC /* panoImage03Proc.html in Resources */,
+				6E6C4ED31852422100B727CC /* panoImage05PostProc.html in Resources */,
+				6E6C4EAC1852422100B727CC /* mandibularImpressionsProc.html in Resources */,
+				6E6C4E941852422100B727CC /* dentureCuspMovementSummary.html in Resources */,
+				6E6C4EAE1852422100B727CC /* max-manRecordsDiag.html in Resources */,
+				6E55CEF8182D7C3E00B03326 /* panoImage05_image01.jpg in Resources */,
+				6E6C4EC01852422100B727CC /* panoImage01Proc.html in Resources */,
+				6E55CEC1182D7C3E00B03326 /* Max-manRecords05.jpg in Resources */,
+				6E604FEF183FA73E00876B84 /* naturalOcclusions.mp4 in Resources */,
+				6E6C4EB91852422100B727CC /* MonoplaneDentureOcclusionPostProc.html in Resources */,
+				6E55CEBE182D7C3E00B03326 /* Max-manRecords02.jpg in Resources */,
+				6E604FE0183F9B4F00876B84 /* Animations.plist in Resources */,
+				6E6C4EBD1852422100B727CC /* panoImage01Diag.html in Resources */,
+				6E55CE75182D7C3E00B03326 /* Balanced03.jpg in Resources */,
+				6E6C4EC61852422100B727CC /* panoImage02Proc.html in Resources */,
+				6E604FED183FA73E00876B84 /* dentureCuspMovement.mp4 in Resources */,
+				6E5752EB182AF17F0080AAC7 /* ProcedureSectionView.xib in Resources */,
+				6E55CEB3182D7C3E00B03326 /* MandibularImpressions05.jpg in Resources */,
+				6E6C4ECD1852422100B727CC /* panoImage04Diag.html in Resources */,
+				6E55CEA7182D7C3E00B03326 /* ImplantOverdenture04.jpg in Resources */,
+				6E55CEEC182D7C3E00B03326 /* panoImage03_image02.jpg in Resources */,
+				6E6C4EF21852422100B727CC /* proceraCrownPreProc.html in Resources */,
+				6E6C4EED1852422100B727CC /* panoImage10PreProc.html in Resources */,
+				6E6C4E8C1852422100B727CC /* CDInsertionPostProc.html in Resources */,
+				6E6C4ECF1852422100B727CC /* panoImage04PreProc.html in Resources */,
+				6E6C4EF71852422100B727CC /* proceraFabricationPreProc.html in Resources */,
+				6E16EBAF1835588600FA135A /* proceraCrownScanning.mp4 in Resources */,
+				6E6C4EDA1852422100B727CC /* panoImage06Proc.html in Resources */,
+				6E6C4EC21852422100B727CC /* panoImage02_image01.html in Resources */,
+				6E16EBA41835588600FA135A /* panoImage03.mp4 in Resources */,
+				6E6C4ED11852422100B727CC /* panoImage04Summary.html in Resources */,
+				6E55CEB5182D7C3E00B03326 /* MandibularImpressions07.jpg in Resources */,
+				6E16EB9F1835588600FA135A /* mandibularImpressions.mp4 in Resources */,
+				6E55CE76182D7C3E00B03326 /* Balanced04.jpg in Resources */,
+				6E6C4EE01852422100B727CC /* panoImage07Summary.html in Resources */,
+				6E16EB9E1835588600FA135A /* implantOverdenture.mp4 in Resources */,
+				6E6C4EEF1852422100B727CC /* panoImage10Summary.html in Resources */,
+				6E6C4E961852422100B727CC /* facebow-HanauPostProc.html in Resources */,
+				6E6C4EFC1852422100B727CC /* proceraScanningPreProc.html in Resources */,
+				6E6C4EC71852422100B727CC /* panoImage02Summary.html in Resources */,
+				6E55CEC3182D7C3E00B03326 /* Max-manRecords07.jpg in Resources */,
+				6E6C4E051852421200B727CC /* styles.css in Resources */,
+				6E6C4EE81852422100B727CC /* panoImage09PreProc.html in Resources */,
+				6E6C4EAD1852422100B727CC /* mandibularImpressionsSummary.html in Resources */,
+				6E55CED7182D7C3E00B03326 /* MonoplaneDentureOcclusion02.jpg in Resources */,
+				6E55CEB6182D7C3E00B03326 /* MandibularImpressions08.jpg in Resources */,
+				6E16EB9C1835588600FA135A /* facebowHanau.mp4 in Resources */,
+				6E6C4EE31852422100B727CC /* panoImage08PreProc.html in Resources */,
+				6E6C4ED41852422100B727CC /* panoImage05PreProc.html in Resources */,
+				6E55CECE182D7C3E00B03326 /* MaxillaryImpressions05.jpg in Resources */,
+				6E6C4EDB1852422100B727CC /* panoImage06Summary.html in Resources */,
+				6E55CE9A182D7C3E00B03326 /* Facebow01.jpg in Resources */,
+				6E55CE9C182D7C3E00B03326 /* Facebow03-Hanau.jpg in Resources */,
+				6E16EBAB1835588600FA135A /* panoImage10.mp4 in Resources */,
+				6EFC33AD1819B85C0036C954 /* Images.xcassets in Resources */,
+				6E6C4ED21852422100B727CC /* panoImage05Diag.html in Resources */,
+				6E55CF16182D7C3E00B03326 /* panoImage10_image01.jpg in Resources */,
+				6E6C4EB01852422100B727CC /* max-manRecordsPreProc.html in Resources */,
+				6E6C4EA81852422100B727CC /* implantOverdentureSummary.html in Resources */,
+				6EB6E72C18804B8C003B0B14 /* NavigationMenuFavoritesTableCell.xib in Resources */,
+				6E6C4EB21852422100B727CC /* max-manRecordsSummary.html in Resources */,
+				6E6C4E8F1852422100B727CC /* CDInsertionSummary.html in Resources */,
+				6E6C4EBF1852422100B727CC /* panoImage01PreProc.html in Resources */,
+				6E16EBA21835588600FA135A /* panoImage01.mp4 in Resources */,
+				6E55CE73182D7C3E00B03326 /* Balanced01.jpg in Resources */,
+				6E55CED8182D7C3E00B03326 /* MonoplaneDentureOcclusion03.jpg in Resources */,
+				6E6C4F011852422100B727CC /* tryInPreProc.html in Resources */,
+				6E6C4EBE1852422100B727CC /* panoImage01PostProc.html in Resources */,
+				6E6C4EFF1852422100B727CC /* tryInDiag.html in Resources */,
+				6E6C4E8A1852422100B727CC /* BalancedDentureOcclusionSummary.html in Resources */,
+				6E6C4EE41852422100B727CC /* panoImage08Proc.html in Resources */,
+				6E6C4EAA1852422100B727CC /* mandibularImpressionsPostProc.html in Resources */,
+				6E6C4E991852422100B727CC /* facebow-HanauSummary.html in Resources */,
+				6E55CEC2182D7C3E00B03326 /* Max-manRecords06.jpg in Resources */,
+				6E6C4F031852422100B727CC /* tryInSummary.html in Resources */,
+				6E6C4EEA1852422100B727CC /* panoImage09Summary.html in Resources */,
+				6EFC339F1819B85C0036C954 /* InfoPlist.strings in Resources */,
+				6E6C4E9F1852422100B727CC /* facebowDiag.html in Resources */,
+				6E6C4EEE1852422100B727CC /* panoImage10Proc.html in Resources */,
+				6E6C4E891852422100B727CC /* BalancedDentureOcclusionProc.html in Resources */,
+				6E55CEEB182D7C3E00B03326 /* panoImage03_image01.jpg in Resources */,
+				6E16EBAD1835588600FA135A /* proceraCrownPrep.mp4 in Resources */,
+				6E6C4EA01852422100B727CC /* facebowPostProc.html in Resources */,
+				6E6C4E901852422100B727CC /* dentureCuspMovementDiag.html in Resources */,
+				6EC755A6183BB31C001EB047 /* FavoritesTableCell.xib in Resources */,
+				6E44FB4C18563280008EEFA5 /* Acknowledgements.html in Resources */,
+				6E55CEC0182D7C3E00B03326 /* Max-manRecords04.jpg in Resources */,
+				6E6C4EC51852422100B727CC /* panoImage02PreProc.html in Resources */,
+				6E6C4EFA1852422100B727CC /* proceraScanningDiag.html in Resources */,
+				6E55CECF182D7C3E00B03326 /* MaxillaryImpressions06.jpg in Resources */,
+				6EFF47701843B4F700DB5A29 /* FavoritesConfirmationViewController.xib in Resources */,
+				6E6C4E871852422100B727CC /* BalancedDentureOcclusionPostProc.html in Resources */,
+				6E16EB981835588600FA135A /* monoplaneDentureOcclusion.mp4 in Resources */,
+				6E55CE79182D7C3E00B03326 /* Balanced07.jpg in Resources */,
+				6E6C4EC41852422100B727CC /* panoImage02PostProc.html in Resources */,
+				6E604FEC183FA73E00876B84 /* canineGuidance.mp4 in Resources */,
+				6E16EBA61835588600FA135A /* panoImage05.mp4 in Resources */,
+				6E79E9D61850E86A00AF5DC5 /* HelpPopupViewController.xib in Resources */,
+				6E6C4E881852422100B727CC /* BalancedDentureOcclusionPreProc.html in Resources */,
+				6E6C4EBA1852422100B727CC /* MonoplaneDentureOcclusionPreProc.html in Resources */,
+				6E55CF04182D7C3E00B03326 /* panoImage07_image01.jpg in Resources */,
+				6E6C4E9E1852422100B727CC /* facebow-WhipMixSummary.html in Resources */,
+				6E6C4E9A1852422100B727CC /* facebow-WhipMixDiag.html in Resources */,
+				6E55CED6182D7C3E00B03326 /* MonoplaneDentureOcclusion01.jpg in Resources */,
+				6E55CEC4182D7C3E00B03326 /* Max-manRecords08.jpg in Resources */,
+				6E6C4EB81852422100B727CC /* MonoplaneDentureOcclusionDiag.html in Resources */,
+				6E16EB9A1835588600FA135A /* dentureTryIn.mp4 in Resources */,
+				6E6C4EDF1852422100B727CC /* panoImage07Proc.html in Resources */,
+				6E16EBA81835588600FA135A /* panoImage07.mp4 in Resources */,
+				6E6C4EB11852422100B727CC /* max-manRecordsProc.html in Resources */,
+				6E6C4EBC1852422100B727CC /* MonoplaneDentureOcclusionSummary.html in Resources */,
+				6E16EBAA1835588600FA135A /* panoImage09.mp4 in Resources */,
+				6E6C4EF51852422100B727CC /* proceraFabricationDiag.html in Resources */,
+				6E6C4EE91852422100B727CC /* panoImage09Proc.html in Resources */,
+				6E16EB991835588600FA135A /* CDInsertion.mp4 in Resources */,
+				6E6C4EC31852422100B727CC /* panoImage02Diag.html in Resources */,
+				6E6C4E971852422100B727CC /* facebow-HanauPreProc.html in Resources */,
+				6E6C4E911852422100B727CC /* dentureCuspMovementPostProc.html in Resources */,
+				6E55CED0182D7C3E00B03326 /* MaxillaryImpressions07.jpg in Resources */,
+				6E6C4E9C1852422100B727CC /* facebow-WhipMixPreProc.html in Resources */,
+				6E6C4EB71852422100B727CC /* maxillaryImpressionsSummary.html in Resources */,
+				6E55CEFE182D7C3E00B03326 /* panoImage06_image01.jpg in Resources */,
+				6E55CEF2182D7C3E00B03326 /* panoImage04_image01.jpg in Resources */,
+				6E6C4EAF1852422100B727CC /* max-manRecordsPostProc.html in Resources */,
+				6E6C4EB51852422100B727CC /* maxillaryImpressionsPreProc.html in Resources */,
+				6E6C4EE11852422100B727CC /* panoImage08Diag.html in Resources */,
+				6E55CECB182D7C3E00B03326 /* MaxillaryImpressions02.jpg in Resources */,
+				6E55CE83182D7C3E00B03326 /* CDInsertion03.jpg in Resources */,
+				6EBEDBC3181AF7F400ED3D85 /* Procedures.plist in Resources */,
+				6E6C4EB31852422100B727CC /* maxillaryImpressionsDiag.html in Resources */,
+				6E55CEBD182D7C3E00B03326 /* Max-manRecords01.jpg in Resources */,
+				6E55CECD182D7C3E00B03326 /* MaxillaryImpressions04.jpg in Resources */,
+				6E6C4F001852422100B727CC /* tryInPostProc.html in Resources */,
+				6E6C4EA91852422100B727CC /* mandibularImpressionsDiag.html in Resources */,
+				6E604FEE183FA73E00876B84 /* groupFunction.mp4 in Resources */,
+				6E6C4E951852422100B727CC /* facebow-HanauDiag.html in Resources */,
+				6E6C4EE21852422100B727CC /* panoImage08PostProc.html in Resources */,
+				6EFC33A81819B85C0036C954 /* Main.storyboard in Resources */,
+				6E6C4EA61852422100B727CC /* implantOverdenturePreProc.html in Resources */,
+				6E55CE84182D7C3E00B03326 /* CDInsertion04.jpg in Resources */,
+				6E6C4EDE1852422100B727CC /* panoImage07PreProc.html in Resources */,
+				6E55CEB1182D7C3E00B03326 /* MandibularImpressions03.jpg in Resources */,
+				6E55CEA4182D7C3E00B03326 /* ImplantOverdenture01.jpg in Resources */,
+				6E6C4ED81852422100B727CC /* panoImage06PostProc.html in Resources */,
+				6E55CE74182D7C3E00B03326 /* Balanced02.jpg in Resources */,
+				6E6C4ED71852422100B727CC /* panoImage06Diag.html in Resources */,
+				6E6C4EE61852422100B727CC /* panoImage09Diag.html in Resources */,
+				6E6C4E981852422100B727CC /* facebow-HanauProc.html in Resources */,
+				6E16EB971835588600FA135A /* balancedDentureOcclusion.mp4 in Resources */,
+				6E55CEBF182D7C3E00B03326 /* Max-manRecords03.jpg in Resources */,
+				6E6C4EF81852422100B727CC /* proceraFabricationProc.html in Resources */,
+				6E6C4EFD1852422100B727CC /* proceraScanningProc.html in Resources */,
+				6E6C4EFE1852422100B727CC /* proceraScanningSummary.html in Resources */,
+				6E55CE78182D7C3E00B03326 /* Balanced06.jpg in Resources */,
+				6E16EBAE1835588600FA135A /* proceraCrownPrepOrig.mp4 in Resources */,
+				6E16EBA51835588600FA135A /* panoImage04.mp4 in Resources */,
+				6E55CE7A182D7C3E00B03326 /* Balanced08.jpg in Resources */,
+				6E6C4E9D1852422100B727CC /* facebow-WhipMixProc.html in Resources */,
+				6E6C4EA51852422100B727CC /* implantOverdenturePostProc.html in Resources */,
+				6E6C4EFB1852422100B727CC /* proceraScanningPostProc.html in Resources */,
+				6E6C4EA71852422100B727CC /* implantOverdentureProc.html in Resources */,
+				6E6C4EDD1852422100B727CC /* panoImage07PostProc.html in Resources */,
+				6E6C4EA31852422100B727CC /* facebowSummary.html in Resources */,
+				6E55CE9D182D7C3E00B03326 /* Facebow03.jpg in Resources */,
+				6E6C4EDC1852422100B727CC /* panoImage07Diag.html in Resources */,
+				6E16EBAC1835588600FA135A /* proceraCrownFabCement.mp4 in Resources */,
+				6E604FE5183FA01900876B84 /* AnimationsTableCell.xib in Resources */,
+				6E6C4EEB1852422100B727CC /* panoImage10Diag.html in Resources */,
+				6E6C4E8D1852422100B727CC /* CDInsertionPreProc.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFC33B01819B85C0036C954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFC33BE1819B85C0036C954 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EFC338D1819B85C0036C954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E103F08183415AD00574296 /* SwipeBackInteractionController.m in Sources */,
+				6E8C8B0518297F8900200C6F /* ProcedureViewController.m in Sources */,
+				6EA24573187F0A1400C6F1CF /* NavigationMenuCategoryTableViewController.m in Sources */,
+				6E8C8B081829A47C00200C6F /* ProcedureModel.m in Sources */,
+				6EFF476A1843AF3400DB5A29 /* ToastViewController.m in Sources */,
+				6EFBEB0D182163FE00C239BC /* HiddenPanelCell.m in Sources */,
+				6E3AFD17187E039F0078A156 /* NavMenuViewController.m in Sources */,
+				6EFC33CF1819C1C50036C954 /* ExpandableTableSectionHeaderView.m in Sources */,
+				6EC755A4183BB2F5001EB047 /* FavoritesTableCell.m in Sources */,
+				6E0DF58E183687C400710706 /* FavoritesManager.m in Sources */,
+				6E5752EE182AF1BD0080AAC7 /* ProcedureSectionView.m in Sources */,
+				6EBEDBC6181B01A600ED3D85 /* NSDictionary-MutableDeepCopy.m in Sources */,
+				6EFF476F1843B4F700DB5A29 /* FavoritesConfirmationViewController.m in Sources */,
+				6E79E9D51850E86A00AF5DC5 /* HelpPopupViewController.m in Sources */,
+				6EA2456E187EFA8900C6F1CF /* NavigationMenuCategoryTableCell.m in Sources */,
+				6E0DF5961836C4BE00710706 /* NavigationMenuViewController.m in Sources */,
+				6E1862B61832763100831D9F /* ProcedureTransitionManager.m in Sources */,
+				6EBEDBC1181ACFFF00ED3D85 /* ProceduresTableCell.m in Sources */,
+				6EB6E72A18804B6A003B0B14 /* NavigationMenuFavoritesTableCell.m in Sources */,
+				6E63502C18229CD700CF6DFE /* RootViewController.m in Sources */,
+				6E0DF5921836A17B00710706 /* AcknowledgmentsViewController.m in Sources */,
+				6EFC33CC1819C1400036C954 /* ExpandableTableViewController.m in Sources */,
+				6EFC33A51819B85C0036C954 /* AppDelegate.m in Sources */,
+				6EB6E72718804ACE003B0B14 /* NavigationMenuFavoritesTableViewController.m in Sources */,
+				6E16EB7C18352D0600FA135A /* UserDefaultsConsts.m in Sources */,
+				6E604FE3183F9E9400876B84 /* AnimationsTableCell.m in Sources */,
+				6E3AFD14187DE0F80078A156 /* ProceduresTableViewController.m in Sources */,
+				6E6164D0183EB70A0070F1F1 /* AnimationsTableViewController.m in Sources */,
+				6E8C5C9B183A801600C5286E /* FavoritesTableViewController.m in Sources */,
+				6EFC33A11819B85C0036C954 /* main.m in Sources */,
+				6E76664A1828378600D5157B /* UIColor+AppDefinedColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFC33AE1819B85C0036C954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFC33C01819B85C0036C954 /* ProceduresConsultTemplateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EFC33B81819B85C0036C954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFC33901819B85C0036C954 /* ClinicalLabSciences */;
+			targetProxy = 6EFC33B71819B85C0036C954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EFC339D1819B85C0036C954 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFC339E1819B85C0036C954 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EFC33A61819B85C0036C954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFC33A71819B85C0036C954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EFC33BC1819B85C0036C954 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFC33BD1819B85C0036C954 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EFC33C11819B85C0036C954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EFC33C21819B85C0036C954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EFC33C41819B85C0036C954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timmy White (3K9U54WCK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Timmy White (3K9U54WCK5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClinicalLabSciences/ClinicalLabSciences-Prefix.pch";
+				INFOPLIST_FILE = "ClinicalLabSciences/ClinicalLabSciences-Info.plist";
+				PRODUCT_NAME = clinicalLabSciences;
+				PROVISIONING_PROFILE = "B46A38B0-3004-4677-A6FD-69B60FF0A0F8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EFC33C51819B85C0036C954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timmy White (3K9U54WCK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Timmy White (3K9U54WCK5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClinicalLabSciences/ClinicalLabSciences-Prefix.pch";
+				INFOPLIST_FILE = "ClinicalLabSciences/ClinicalLabSciences-Info.plist";
+				PRODUCT_NAME = clinicalLabSciences;
+				PROVISIONING_PROFILE = "B46A38B0-3004-4677-A6FD-69B60FF0A0F8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6EFC33C71819B85C0036C954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/clinicalLabSciences.app/ClinicalLabSciences";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClinicalLabSciences/ClinicalLabSciences-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClinicalLabSciencesTests/ClinicalLabSciencesTests-Info.plist";
+				PRODUCT_NAME = ClinicalLabSciencesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6EFC33C81819B85C0036C954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/clinicalLabSciences.app/ClinicalLabSciences";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClinicalLabSciences/ClinicalLabSciences-Prefix.pch";
+				INFOPLIST_FILE = "ClinicalLabSciencesTests/ClinicalLabSciencesTests-Info.plist";
+				PRODUCT_NAME = ClinicalLabSciencesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EFC338C1819B85C0036C954 /* Build configuration list for PBXProject "ClinicalLabSciences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFC33C11819B85C0036C954 /* Debug */,
+				6EFC33C21819B85C0036C954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFC33C31819B85C0036C954 /* Build configuration list for PBXNativeTarget "ClinicalLabSciences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFC33C41819B85C0036C954 /* Debug */,
+				6EFC33C51819B85C0036C954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFC33C61819B85C0036C954 /* Build configuration list for PBXNativeTarget "ClinicalLabSciencesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFC33C71819B85C0036C954 /* Debug */,
+				6EFC33C81819B85C0036C954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EFC33891819B85C0036C954 /* Project object */;
+}
